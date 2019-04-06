@@ -15,14 +15,13 @@ exports.dialogflowFirebaseFulfillment = functions.https.onRequest((request, resp
   console.log('Dialogflow Request headers: ' + JSON.stringify(request.headers));
   console.log('Dialogflow Request body: ' + JSON.stringify(request.body));
 
+  // IMPORTANT: function that actually checks the inventory
   function checkInventoryItem(agent) {
     const swag = agent.parameters.swag;
 
-    agent.add("Here's the information:    ");
+    agent.add("Here's the information: ");
 
     return admin.database().ref('inventory').once('value').then((snapshot) => {
-      console.log('dev: Incoming swag ' + swag);
-
       if (swag === 'tshirts') {
         let size = agent.parameters.size;
         if (size && size.length > 0) {
