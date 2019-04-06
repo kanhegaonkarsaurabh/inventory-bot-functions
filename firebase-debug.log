@@ -1,0 +1,1166 @@
+[debug] [2019-04-06T17:36:13.175Z] ----------------------------------------------------------------------
+[debug] [2019-04-06T17:36:13.184Z] Command:       /Users/saurabhkanhegaonkar/.nvm/versions/node/v10.15.3/bin/node /Users/saurabhkanhegaonkar/.nvm/versions/node/v10.15.3/bin/firebase deploy --only functions --debug
+[debug] [2019-04-06T17:36:13.186Z] CLI Version:   6.5.3
+[debug] [2019-04-06T17:36:13.186Z] Platform:      darwin
+[debug] [2019-04-06T17:36:13.187Z] Node Version:  v10.15.3
+[debug] [2019-04-06T17:36:13.188Z] Time:          Sat Apr 06 2019 10:36:13 GMT-0700 (Pacific Daylight Time)
+[debug] [2019-04-06T17:36:13.188Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2019-04-06T17:36:13.200Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2019-04-06T17:36:13.200Z] > authorizing via signed-in user
+[debug] [2019-04-06T17:36:13.201Z] [iam] checking project hackxx-b5b0f for permissions ["cloudfunctions.functions.create","cloudfunctions.functions.delete","cloudfunctions.functions.get","cloudfunctions.functions.list","cloudfunctions.functions.update","cloudfunctions.operations.get","firebase.projects.get"]
+[debug] [2019-04-06T17:36:13.204Z] >>> HTTP REQUEST POST https://cloudresourcemanager.googleapis.com/v1/projects/hackxx-b5b0f:testIamPermissions  
+
+[debug] [2019-04-06T17:36:13.586Z] <<< HTTP RESPONSE 200
+[debug] [2019-04-06T17:36:13.594Z] Error: spawn npm ENOENT
+    at Process.ChildProcess._handle.onexit (internal/child_process.js:240:19)
+    at onErrorNT (internal/child_process.js:415:16)
+    at process._tickCallback (internal/process/next_tick.js:63:19)
+[info] 
+[info] === Deploying to 'hackxx-b5b0f'...
+[info] 
+[info] i  deploying functions
+[info] Running command: npm --prefix "$RESOURCE_DIR" run lint
+[error] 
+[error] Error: functions predeploy error: Command terminated with non-zero exit code254
+[debug] [2019-04-06T17:36:53.920Z] ----------------------------------------------------------------------
+[debug] [2019-04-06T17:36:53.925Z] Command:       /Users/saurabhkanhegaonkar/.nvm/versions/node/v10.15.3/bin/node /Users/saurabhkanhegaonkar/.nvm/versions/node/v10.15.3/bin/firebase deploy --only functions --debug
+[debug] [2019-04-06T17:36:53.925Z] CLI Version:   6.5.3
+[debug] [2019-04-06T17:36:53.925Z] Platform:      darwin
+[debug] [2019-04-06T17:36:53.926Z] Node Version:  v10.15.3
+[debug] [2019-04-06T17:36:53.928Z] Time:          Sat Apr 06 2019 10:36:53 GMT-0700 (Pacific Daylight Time)
+[debug] [2019-04-06T17:36:53.928Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2019-04-06T17:36:53.940Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2019-04-06T17:36:53.940Z] > authorizing via signed-in user
+[debug] [2019-04-06T17:36:53.940Z] [iam] checking project hackxx-b5b0f for permissions ["cloudfunctions.functions.create","cloudfunctions.functions.delete","cloudfunctions.functions.get","cloudfunctions.functions.list","cloudfunctions.functions.update","cloudfunctions.operations.get","firebase.projects.get"]
+[debug] [2019-04-06T17:36:53.943Z] >>> HTTP REQUEST POST https://cloudresourcemanager.googleapis.com/v1/projects/hackxx-b5b0f:testIamPermissions  
+
+[debug] [2019-04-06T17:36:54.307Z] <<< HTTP RESPONSE 200
+[info] 
+[info] === Deploying to 'hackxx-b5b0f'...
+[info] 
+[info] i  deploying functions
+[info] Running command: npm --prefix "$RESOURCE_DIR" run lint
+[error] 
+[error] Error: functions predeploy error: Command terminated with non-zero exit code1
+[debug] [2019-04-06T17:37:31.582Z] ----------------------------------------------------------------------
+[debug] [2019-04-06T17:37:31.587Z] Command:       /Users/saurabhkanhegaonkar/.nvm/versions/node/v10.15.3/bin/node /Users/saurabhkanhegaonkar/.nvm/versions/node/v10.15.3/bin/firebase deploy --only functions --debug
+[debug] [2019-04-06T17:37:31.588Z] CLI Version:   6.5.3
+[debug] [2019-04-06T17:37:31.588Z] Platform:      darwin
+[debug] [2019-04-06T17:37:31.589Z] Node Version:  v10.15.3
+[debug] [2019-04-06T17:37:31.589Z] Time:          Sat Apr 06 2019 10:37:31 GMT-0700 (Pacific Daylight Time)
+[debug] [2019-04-06T17:37:31.590Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2019-04-06T17:37:31.604Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2019-04-06T17:37:31.605Z] > authorizing via signed-in user
+[debug] [2019-04-06T17:37:31.605Z] [iam] checking project hackxx-b5b0f for permissions ["cloudfunctions.functions.create","cloudfunctions.functions.delete","cloudfunctions.functions.get","cloudfunctions.functions.list","cloudfunctions.functions.update","cloudfunctions.operations.get","firebase.projects.get"]
+[debug] [2019-04-06T17:37:31.607Z] >>> HTTP REQUEST POST https://cloudresourcemanager.googleapis.com/v1/projects/hackxx-b5b0f:testIamPermissions  
+
+[debug] [2019-04-06T17:37:31.854Z] <<< HTTP RESPONSE 200
+[info] 
+[info] === Deploying to 'hackxx-b5b0f'...
+[info] 
+[info] i  deploying functions
+[info] Running command: npm --prefix "$RESOURCE_DIR" run lint
+[error] 
+[error] Error: functions predeploy error: Command terminated with non-zero exit code1
+[debug] [2019-04-06T17:37:56.673Z] ----------------------------------------------------------------------
+[debug] [2019-04-06T17:37:56.680Z] Command:       /Users/saurabhkanhegaonkar/.nvm/versions/node/v10.15.3/bin/node /Users/saurabhkanhegaonkar/.nvm/versions/node/v10.15.3/bin/firebase deploy --only functions --debug
+[debug] [2019-04-06T17:37:56.681Z] CLI Version:   6.5.3
+[debug] [2019-04-06T17:37:56.682Z] Platform:      darwin
+[debug] [2019-04-06T17:37:56.682Z] Node Version:  v10.15.3
+[debug] [2019-04-06T17:37:56.683Z] Time:          Sat Apr 06 2019 10:37:56 GMT-0700 (Pacific Daylight Time)
+[debug] [2019-04-06T17:37:56.683Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2019-04-06T17:37:56.705Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2019-04-06T17:37:56.706Z] > authorizing via signed-in user
+[debug] [2019-04-06T17:37:56.706Z] [iam] checking project hackxx-b5b0f for permissions ["cloudfunctions.functions.create","cloudfunctions.functions.delete","cloudfunctions.functions.get","cloudfunctions.functions.list","cloudfunctions.functions.update","cloudfunctions.operations.get","firebase.projects.get"]
+[debug] [2019-04-06T17:37:56.711Z] >>> HTTP REQUEST POST https://cloudresourcemanager.googleapis.com/v1/projects/hackxx-b5b0f:testIamPermissions  
+
+[debug] [2019-04-06T17:37:57.101Z] <<< HTTP RESPONSE 200
+[info] 
+[info] === Deploying to 'hackxx-b5b0f'...
+[info] 
+[info] i  deploying functions
+[info] Running command: npm --prefix "$RESOURCE_DIR" run lint
+[error] 
+[error] Error: functions predeploy error: Command terminated with non-zero exit code1
+[debug] [2019-04-06T17:38:42.231Z] ----------------------------------------------------------------------
+[debug] [2019-04-06T17:38:42.247Z] Command:       /Users/saurabhkanhegaonkar/.nvm/versions/node/v10.15.3/bin/node /Users/saurabhkanhegaonkar/.nvm/versions/node/v10.15.3/bin/firebase deploy --only functions --debug
+[debug] [2019-04-06T17:38:42.248Z] CLI Version:   6.5.3
+[debug] [2019-04-06T17:38:42.248Z] Platform:      darwin
+[debug] [2019-04-06T17:38:42.248Z] Node Version:  v10.15.3
+[debug] [2019-04-06T17:38:42.249Z] Time:          Sat Apr 06 2019 10:38:42 GMT-0700 (Pacific Daylight Time)
+[debug] [2019-04-06T17:38:42.250Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2019-04-06T17:38:42.287Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2019-04-06T17:38:42.291Z] > authorizing via signed-in user
+[debug] [2019-04-06T17:38:42.292Z] [iam] checking project hackxx-b5b0f for permissions ["cloudfunctions.functions.create","cloudfunctions.functions.delete","cloudfunctions.functions.get","cloudfunctions.functions.list","cloudfunctions.functions.update","cloudfunctions.operations.get","firebase.projects.get"]
+[debug] [2019-04-06T17:38:42.300Z] >>> HTTP REQUEST POST https://cloudresourcemanager.googleapis.com/v1/projects/hackxx-b5b0f:testIamPermissions  
+
+[debug] [2019-04-06T17:38:42.744Z] <<< HTTP RESPONSE 200
+[info] 
+[info] === Deploying to 'hackxx-b5b0f'...
+[info] 
+[info] i  deploying functions
+[info] Running command: npm --prefix "$RESOURCE_DIR"
+[error] 
+[error] Error: functions predeploy error: Command terminated with non-zero exit code1
+[debug] [2019-04-06T17:39:08.571Z] ----------------------------------------------------------------------
+[debug] [2019-04-06T17:39:08.589Z] Command:       /Users/saurabhkanhegaonkar/.nvm/versions/node/v10.15.3/bin/node /Users/saurabhkanhegaonkar/.nvm/versions/node/v10.15.3/bin/firebase deploy --only functions --debug
+[debug] [2019-04-06T17:39:08.590Z] CLI Version:   6.5.3
+[debug] [2019-04-06T17:39:08.590Z] Platform:      darwin
+[debug] [2019-04-06T17:39:08.590Z] Node Version:  v10.15.3
+[debug] [2019-04-06T17:39:08.591Z] Time:          Sat Apr 06 2019 10:39:08 GMT-0700 (Pacific Daylight Time)
+[debug] [2019-04-06T17:39:08.591Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2019-04-06T17:39:08.612Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2019-04-06T17:39:08.612Z] > authorizing via signed-in user
+[debug] [2019-04-06T17:39:08.613Z] [iam] checking project hackxx-b5b0f for permissions ["cloudfunctions.functions.create","cloudfunctions.functions.delete","cloudfunctions.functions.get","cloudfunctions.functions.list","cloudfunctions.functions.update","cloudfunctions.operations.get","firebase.projects.get"]
+[debug] [2019-04-06T17:39:08.621Z] >>> HTTP REQUEST POST https://cloudresourcemanager.googleapis.com/v1/projects/hackxx-b5b0f:testIamPermissions  
+
+[debug] [2019-04-06T17:39:09.037Z] <<< HTTP RESPONSE 200
+[info] 
+[info] === Deploying to 'hackxx-b5b0f'...
+[info] 
+[info] i  deploying functions
+[info] Running command: npm --prefix "$RESOURCE_DIR"
+[error] 
+[error] Error: functions predeploy error: Command terminated with non-zero exit code1
+[debug] [2019-04-06T17:39:29.741Z] ----------------------------------------------------------------------
+[debug] [2019-04-06T17:39:29.747Z] Command:       /Users/saurabhkanhegaonkar/.nvm/versions/node/v10.15.3/bin/node /Users/saurabhkanhegaonkar/.nvm/versions/node/v10.15.3/bin/firebase deploy --only functions --debug
+[debug] [2019-04-06T17:39:29.748Z] CLI Version:   6.5.3
+[debug] [2019-04-06T17:39:29.748Z] Platform:      darwin
+[debug] [2019-04-06T17:39:29.748Z] Node Version:  v10.15.3
+[debug] [2019-04-06T17:39:29.749Z] Time:          Sat Apr 06 2019 10:39:29 GMT-0700 (Pacific Daylight Time)
+[debug] [2019-04-06T17:39:29.750Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2019-04-06T17:39:29.766Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2019-04-06T17:39:29.767Z] > authorizing via signed-in user
+[debug] [2019-04-06T17:39:29.768Z] [iam] checking project hackxx-b5b0f for permissions ["cloudfunctions.functions.create","cloudfunctions.functions.delete","cloudfunctions.functions.get","cloudfunctions.functions.list","cloudfunctions.functions.update","cloudfunctions.operations.get","firebase.projects.get"]
+[debug] [2019-04-06T17:39:29.772Z] >>> HTTP REQUEST POST https://cloudresourcemanager.googleapis.com/v1/projects/hackxx-b5b0f:testIamPermissions  
+
+[debug] [2019-04-06T17:39:30.336Z] <<< HTTP RESPONSE 200
+[info] 
+[info] === Deploying to 'hackxx-b5b0f'...
+[info] 
+[info] i  deploying functions
+[info] Running command: npm --prefix "$RESOURCE_DIR" run lint
+[error] 
+[error] Error: functions predeploy error: Command terminated with non-zero exit code1
+[debug] [2019-04-06T17:39:48.430Z] ----------------------------------------------------------------------
+[debug] [2019-04-06T17:39:48.443Z] Command:       /Users/saurabhkanhegaonkar/.nvm/versions/node/v10.15.3/bin/node /Users/saurabhkanhegaonkar/.nvm/versions/node/v10.15.3/bin/firebase deploy --only functions --debug
+[debug] [2019-04-06T17:39:48.444Z] CLI Version:   6.5.3
+[debug] [2019-04-06T17:39:48.444Z] Platform:      darwin
+[debug] [2019-04-06T17:39:48.444Z] Node Version:  v10.15.3
+[debug] [2019-04-06T17:39:48.445Z] Time:          Sat Apr 06 2019 10:39:48 GMT-0700 (Pacific Daylight Time)
+[debug] [2019-04-06T17:39:48.446Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2019-04-06T17:39:48.474Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2019-04-06T17:39:48.479Z] > authorizing via signed-in user
+[debug] [2019-04-06T17:39:48.480Z] [iam] checking project hackxx-b5b0f for permissions ["cloudfunctions.functions.create","cloudfunctions.functions.delete","cloudfunctions.functions.get","cloudfunctions.functions.list","cloudfunctions.functions.update","cloudfunctions.operations.get","firebase.projects.get"]
+[debug] [2019-04-06T17:39:48.491Z] >>> HTTP REQUEST POST https://cloudresourcemanager.googleapis.com/v1/projects/hackxx-b5b0f:testIamPermissions  
+
+[debug] [2019-04-06T17:39:48.938Z] <<< HTTP RESPONSE 200
+[info] 
+[info] === Deploying to 'hackxx-b5b0f'...
+[info] 
+[info] i  deploying functions
+[info] Running command: npm --prefix "$RESOURCE_DIR" run lint
+[info] ✔  functions: Finished running predeploy script.
+[debug] [2019-04-06T17:39:53.202Z] > [functions] package.json contents: {
+  "name": "functions",
+  "description": "Cloud Functions for Firebase",
+  "scripts": {
+    "lint": "eslint .",
+    "serve": "firebase serve --only functions",
+    "shell": "firebase functions:shell",
+    "start": "npm run shell",
+    "deploy": "firebase deploy --only functions",
+    "logs": "firebase functions:log"
+  },
+  "dependencies": {
+    "firebase-admin": "~7.0.0",
+    "firebase-functions": "^2.2.0"
+  },
+  "devDependencies": {
+    "eslint": "^5.12.0",
+    "eslint-plugin-promise": "^4.0.1"
+  },
+  "private": true
+}
+[info] i  functions: ensuring necessary APIs are enabled...
+[debug] [2019-04-06T17:39:53.204Z] >>> HTTP REQUEST GET https://servicemanagement.googleapis.com/v1/services/cloudfunctions.googleapis.com/projectSettings/hackxx-b5b0f?view=CONSUMER_VIEW  
+ 
+[debug] [2019-04-06T17:39:53.205Z] >>> HTTP REQUEST GET https://servicemanagement.googleapis.com/v1/services/runtimeconfig.googleapis.com/projectSettings/hackxx-b5b0f?view=CONSUMER_VIEW  
+ 
+[debug] [2019-04-06T17:39:54.160Z] <<< HTTP RESPONSE 200
+[info] ✔  functions: all necessary APIs are enabled
+[debug] [2019-04-06T17:39:54.183Z] <<< HTTP RESPONSE 200
+[debug] [2019-04-06T17:39:54.183Z] >>> HTTP REQUEST GET https://cloudresourcemanager.googleapis.com/v1/projects/hackxx-b5b0f  
+ 
+[debug] [2019-04-06T17:39:54.599Z] <<< HTTP RESPONSE 200
+[debug] [2019-04-06T17:39:54.601Z] >>> HTTP REQUEST GET https://mobilesdk-pa.googleapis.com/v1/projects/1031789119217:getServerAppConfig  
+ 
+[debug] [2019-04-06T17:39:54.886Z] <<< HTTP RESPONSE 200
+[info] i  functions: preparing ./ directory for uploading...
+[debug] [2019-04-06T17:39:54.888Z] >>> HTTP REQUEST GET https://runtimeconfig.googleapis.com/v1beta1/projects/hackxx-b5b0f/configs  
+ 
+[debug] [2019-04-06T17:39:55.187Z] <<< HTTP RESPONSE 200
+[error] 
+[error] Error: Error parsing triggers: Cannot find module 'dialogflow-fulfillment'
+
+Try running "npm install" in your functions directory before deploying.
+[debug] [2019-04-06T17:40:42.684Z] ----------------------------------------------------------------------
+[debug] [2019-04-06T17:40:42.694Z] Command:       /Users/saurabhkanhegaonkar/.nvm/versions/node/v10.15.3/bin/node /Users/saurabhkanhegaonkar/.nvm/versions/node/v10.15.3/bin/firebase deploy --only functions --debug
+[debug] [2019-04-06T17:40:42.696Z] CLI Version:   6.5.3
+[debug] [2019-04-06T17:40:42.697Z] Platform:      darwin
+[debug] [2019-04-06T17:40:42.698Z] Node Version:  v10.15.3
+[debug] [2019-04-06T17:40:42.699Z] Time:          Sat Apr 06 2019 10:40:42 GMT-0700 (Pacific Daylight Time)
+[debug] [2019-04-06T17:40:42.699Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2019-04-06T17:40:42.715Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2019-04-06T17:40:42.716Z] > authorizing via signed-in user
+[debug] [2019-04-06T17:40:42.716Z] [iam] checking project hackxx-b5b0f for permissions ["cloudfunctions.functions.create","cloudfunctions.functions.delete","cloudfunctions.functions.get","cloudfunctions.functions.list","cloudfunctions.functions.update","cloudfunctions.operations.get","firebase.projects.get"]
+[debug] [2019-04-06T17:40:42.720Z] >>> HTTP REQUEST POST https://cloudresourcemanager.googleapis.com/v1/projects/hackxx-b5b0f:testIamPermissions  
+
+[debug] [2019-04-06T17:40:43.130Z] <<< HTTP RESPONSE 200
+[info] 
+[info] === Deploying to 'hackxx-b5b0f'...
+[info] 
+[info] i  deploying functions
+[info] Running command: npm --prefix "$RESOURCE_DIR" run lint
+[info] ✔  functions: Finished running predeploy script.
+[debug] [2019-04-06T17:40:47.185Z] > [functions] package.json contents: {
+  "name": "functions",
+  "description": "Cloud Functions for Firebase",
+  "scripts": {
+    "lint": "eslint .",
+    "serve": "firebase serve --only functions",
+    "shell": "firebase functions:shell",
+    "start": "npm run shell",
+    "deploy": "firebase deploy --only functions",
+    "logs": "firebase functions:log"
+  },
+  "dependencies": {
+    "dialogflow-fulfillment": "^0.6.1",
+    "firebase-admin": "~7.0.0",
+    "firebase-functions": "^2.2.0"
+  },
+  "devDependencies": {
+    "eslint": "^5.12.0",
+    "eslint-plugin-promise": "^4.0.1"
+  },
+  "private": true
+}
+[info] i  functions: ensuring necessary APIs are enabled...
+[debug] [2019-04-06T17:40:47.186Z] >>> HTTP REQUEST GET https://servicemanagement.googleapis.com/v1/services/cloudfunctions.googleapis.com/projectSettings/hackxx-b5b0f?view=CONSUMER_VIEW  
+ 
+[debug] [2019-04-06T17:40:47.188Z] >>> HTTP REQUEST GET https://servicemanagement.googleapis.com/v1/services/runtimeconfig.googleapis.com/projectSettings/hackxx-b5b0f?view=CONSUMER_VIEW  
+ 
+[debug] [2019-04-06T17:40:48.045Z] <<< HTTP RESPONSE 200
+[debug] [2019-04-06T17:40:48.117Z] <<< HTTP RESPONSE 200
+[info] ✔  functions: all necessary APIs are enabled
+[debug] [2019-04-06T17:40:48.118Z] >>> HTTP REQUEST GET https://cloudresourcemanager.googleapis.com/v1/projects/hackxx-b5b0f  
+ 
+[debug] [2019-04-06T17:40:48.454Z] <<< HTTP RESPONSE 200
+[debug] [2019-04-06T17:40:48.455Z] >>> HTTP REQUEST GET https://mobilesdk-pa.googleapis.com/v1/projects/1031789119217:getServerAppConfig  
+ 
+[debug] [2019-04-06T17:40:48.657Z] <<< HTTP RESPONSE 200
+[info] i  functions: preparing ./ directory for uploading...
+[debug] [2019-04-06T17:40:48.660Z] >>> HTTP REQUEST GET https://runtimeconfig.googleapis.com/v1beta1/projects/hackxx-b5b0f/configs  
+ 
+[debug] [2019-04-06T17:40:48.882Z] <<< HTTP RESPONSE 200
+[error] 
+[error] Error: Error parsing triggers: Cannot find module 'actions-on-google'
+
+Try running "npm install" in your functions directory before deploying.
+[debug] [2019-04-06T17:42:21.400Z] ----------------------------------------------------------------------
+[debug] [2019-04-06T17:42:21.405Z] Command:       /Users/saurabhkanhegaonkar/.nvm/versions/node/v10.15.3/bin/node /Users/saurabhkanhegaonkar/.nvm/versions/node/v10.15.3/bin/firebase deploy --only functions --debug
+[debug] [2019-04-06T17:42:21.406Z] CLI Version:   6.5.3
+[debug] [2019-04-06T17:42:21.406Z] Platform:      darwin
+[debug] [2019-04-06T17:42:21.406Z] Node Version:  v10.15.3
+[debug] [2019-04-06T17:42:21.407Z] Time:          Sat Apr 06 2019 10:42:21 GMT-0700 (Pacific Daylight Time)
+[debug] [2019-04-06T17:42:21.408Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2019-04-06T17:42:21.422Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2019-04-06T17:42:21.422Z] > authorizing via signed-in user
+[debug] [2019-04-06T17:42:21.423Z] [iam] checking project hackxx-b5b0f for permissions ["cloudfunctions.functions.create","cloudfunctions.functions.delete","cloudfunctions.functions.get","cloudfunctions.functions.list","cloudfunctions.functions.update","cloudfunctions.operations.get","firebase.projects.get"]
+[debug] [2019-04-06T17:42:21.425Z] >>> HTTP REQUEST POST https://cloudresourcemanager.googleapis.com/v1/projects/hackxx-b5b0f:testIamPermissions  
+
+[debug] [2019-04-06T17:42:21.855Z] <<< HTTP RESPONSE 200
+[info] 
+[info] === Deploying to 'hackxx-b5b0f'...
+[info] 
+[info] i  deploying functions
+[info] Running command: npm --prefix "$RESOURCE_DIR" run lint
+[info] ✔  functions: Finished running predeploy script.
+[debug] [2019-04-06T17:42:25.456Z] > [functions] package.json contents: {
+  "name": "functions",
+  "description": "Cloud Functions for Firebase",
+  "scripts": {
+    "lint": "eslint .",
+    "serve": "firebase serve --only functions",
+    "shell": "firebase functions:shell",
+    "start": "npm run shell",
+    "deploy": "firebase deploy --only functions",
+    "logs": "firebase functions:log"
+  },
+  "dependencies": {
+    "actions-on-google": "^2.6.0",
+    "dialogflow-fulfillment": "^0.6.1",
+    "firebase-admin": "~7.0.0",
+    "firebase-functions": "^2.2.0"
+  },
+  "devDependencies": {
+    "eslint": "^5.12.0",
+    "eslint-plugin-promise": "^4.0.1"
+  },
+  "private": true
+}
+[info] i  functions: ensuring necessary APIs are enabled...
+[debug] [2019-04-06T17:42:25.459Z] >>> HTTP REQUEST GET https://servicemanagement.googleapis.com/v1/services/cloudfunctions.googleapis.com/projectSettings/hackxx-b5b0f?view=CONSUMER_VIEW  
+ 
+[debug] [2019-04-06T17:42:25.463Z] >>> HTTP REQUEST GET https://servicemanagement.googleapis.com/v1/services/runtimeconfig.googleapis.com/projectSettings/hackxx-b5b0f?view=CONSUMER_VIEW  
+ 
+[debug] [2019-04-06T17:42:26.391Z] <<< HTTP RESPONSE 200
+[debug] [2019-04-06T17:42:26.555Z] <<< HTTP RESPONSE 200
+[info] ✔  functions: all necessary APIs are enabled
+[debug] [2019-04-06T17:42:26.556Z] >>> HTTP REQUEST GET https://cloudresourcemanager.googleapis.com/v1/projects/hackxx-b5b0f  
+ 
+[debug] [2019-04-06T17:42:26.887Z] <<< HTTP RESPONSE 200
+[debug] [2019-04-06T17:42:26.888Z] >>> HTTP REQUEST GET https://mobilesdk-pa.googleapis.com/v1/projects/1031789119217:getServerAppConfig  
+ 
+[debug] [2019-04-06T17:42:27.089Z] <<< HTTP RESPONSE 200
+[info] i  functions: preparing ./ directory for uploading...
+[debug] [2019-04-06T17:42:27.092Z] >>> HTTP REQUEST GET https://runtimeconfig.googleapis.com/v1beta1/projects/hackxx-b5b0f/configs  
+ 
+[debug] [2019-04-06T17:42:27.328Z] <<< HTTP RESPONSE 200
+[info] i  functions: packaged ./ (41.99 KB) for uploading
+[debug] [2019-04-06T17:42:28.110Z] >>> HTTP REQUEST POST https://cloudfunctions.googleapis.com/v1/projects/hackxx-b5b0f/locations/us-central1/functions:generateUploadUrl  
+ 
+[debug] [2019-04-06T17:42:28.711Z] <<< HTTP RESPONSE 200
+[debug] [2019-04-06T17:42:28.712Z] >>> HTTP REQUEST PUT https://storage.googleapis.com/gcf-upload-us-central1-f570dd25-1b1a-4e66-bfac-1a2d8a14bd74/ab556749-5b18-4d31-bbf4-c2743e2bd529.zip?GoogleAccessId=service-1031789119217@gcf-admin-robot.iam.gserviceaccount.com&Expires=1554574348&Signature=HKObLbSjzvIOIPT%2BFST1d2mguZjXutmDRPs1jt5pKB4Cr1q4JDpHWEM5NFFd4B3LEa5seB%2BbmETSiRLtC%2F9RZ%2BhCpkpl5%2FMErZEr7Kv%2BZQHn9PD3XrOpCEhpMtqlCSrQH%2BXREOBf2lqeXv1THeCOBbOh6VsercyWOXWjEK5vonC4zZUpPU6h057gMhhfrSE88h82OwhgSW2KFWFl9IkMpsquYtsIW%2Bwxq2AnnUYXgEb1Mq8jRgLZ2p2sgnErHPkJ2xCl4NYWMyVT7VzgcUufntGZnTCceA1lC%2FOl3WtytMPx5gvfglbltu9ipzXjDM1fx%2BAomZ1WtJWVCXS5F4JF8A%3D%3D  
+
+[debug] [2019-04-06T17:42:30.686Z] <<< HTTP RESPONSE 200
+[info] ✔  functions: ./ folder uploaded successfully
+[debug] [2019-04-06T17:42:30.690Z] >>> HTTP REQUEST GET https://cloudfunctions.googleapis.com/v1/projects/hackxx-b5b0f/locations/-/functions  
+ 
+[debug] [2019-04-06T17:42:31.292Z] <<< HTTP RESPONSE 200
+[info] i  functions: updating Node.js 6 function dialogflowFirebaseFulfillment(us-central1)...
+[debug] [2019-04-06T17:42:31.297Z] Trigger is:  {"httpsTrigger":{}}
+[debug] [2019-04-06T17:42:31.300Z] >>> HTTP REQUEST PATCH https://cloudfunctions.googleapis.com/v1/projects/hackxx-b5b0f/locations/us-central1/functions/dialogflowFirebaseFulfillment {"updateMask":"sourceUploadUrl,name,labels,httpsTrigger"} 
+
+[debug] [2019-04-06T17:42:31.861Z] <<< HTTP RESPONSE 200
+[debug] [2019-04-06T17:42:31.864Z] >>> HTTP REQUEST GET https://cloudfunctions.googleapis.com/v1/projects/hackxx-b5b0f/locations/-/functions  
+ 
+[debug] [2019-04-06T17:42:32.293Z] <<< HTTP RESPONSE 200
+[debug] [2019-04-06T17:42:32.295Z] >>> HTTP REQUEST GET https://cloudfunctions.googleapis.com/v1/operations/aGFja3h4LWI1YjBmL3VzLWNlbnRyYWwxL2RpYWxvZ2Zsb3dGaXJlYmFzZUZ1bGZpbGxtZW50L1hWUzV6TWxnZVFn  
+ 
+[debug] [2019-04-06T17:42:32.714Z] <<< HTTP RESPONSE 200
+[debug] [2019-04-06T17:42:34.718Z] >>> HTTP REQUEST GET https://cloudfunctions.googleapis.com/v1/operations/aGFja3h4LWI1YjBmL3VzLWNlbnRyYWwxL2RpYWxvZ2Zsb3dGaXJlYmFzZUZ1bGZpbGxtZW50L1hWUzV6TWxnZVFn  
+ 
+[debug] [2019-04-06T17:42:35.161Z] <<< HTTP RESPONSE 200
+[debug] [2019-04-06T17:42:37.164Z] >>> HTTP REQUEST GET https://cloudfunctions.googleapis.com/v1/operations/aGFja3h4LWI1YjBmL3VzLWNlbnRyYWwxL2RpYWxvZ2Zsb3dGaXJlYmFzZUZ1bGZpbGxtZW50L1hWUzV6TWxnZVFn  
+ 
+[debug] [2019-04-06T17:42:37.581Z] <<< HTTP RESPONSE 200
+[debug] [2019-04-06T17:42:39.585Z] >>> HTTP REQUEST GET https://cloudfunctions.googleapis.com/v1/operations/aGFja3h4LWI1YjBmL3VzLWNlbnRyYWwxL2RpYWxvZ2Zsb3dGaXJlYmFzZUZ1bGZpbGxtZW50L1hWUzV6TWxnZVFn  
+ 
+[debug] [2019-04-06T17:42:40.011Z] <<< HTTP RESPONSE 200
+[debug] [2019-04-06T17:42:42.013Z] >>> HTTP REQUEST GET https://cloudfunctions.googleapis.com/v1/operations/aGFja3h4LWI1YjBmL3VzLWNlbnRyYWwxL2RpYWxvZ2Zsb3dGaXJlYmFzZUZ1bGZpbGxtZW50L1hWUzV6TWxnZVFn  
+ 
+[debug] [2019-04-06T17:42:42.435Z] <<< HTTP RESPONSE 200
+[debug] [2019-04-06T17:42:44.437Z] >>> HTTP REQUEST GET https://cloudfunctions.googleapis.com/v1/operations/aGFja3h4LWI1YjBmL3VzLWNlbnRyYWwxL2RpYWxvZ2Zsb3dGaXJlYmFzZUZ1bGZpbGxtZW50L1hWUzV6TWxnZVFn  
+ 
+[debug] [2019-04-06T17:42:44.853Z] <<< HTTP RESPONSE 200
+[debug] [2019-04-06T17:42:46.853Z] >>> HTTP REQUEST GET https://cloudfunctions.googleapis.com/v1/operations/aGFja3h4LWI1YjBmL3VzLWNlbnRyYWwxL2RpYWxvZ2Zsb3dGaXJlYmFzZUZ1bGZpbGxtZW50L1hWUzV6TWxnZVFn  
+ 
+[debug] [2019-04-06T17:42:47.254Z] <<< HTTP RESPONSE 200
+[debug] [2019-04-06T17:42:49.259Z] >>> HTTP REQUEST GET https://cloudfunctions.googleapis.com/v1/operations/aGFja3h4LWI1YjBmL3VzLWNlbnRyYWwxL2RpYWxvZ2Zsb3dGaXJlYmFzZUZ1bGZpbGxtZW50L1hWUzV6TWxnZVFn  
+ 
+[debug] [2019-04-06T17:42:49.458Z] <<< HTTP RESPONSE 200
+[debug] [2019-04-06T17:42:51.460Z] >>> HTTP REQUEST GET https://cloudfunctions.googleapis.com/v1/operations/aGFja3h4LWI1YjBmL3VzLWNlbnRyYWwxL2RpYWxvZ2Zsb3dGaXJlYmFzZUZ1bGZpbGxtZW50L1hWUzV6TWxnZVFn  
+ 
+[debug] [2019-04-06T17:42:51.889Z] <<< HTTP RESPONSE 200
+[info] ✔  functions[dialogflowFirebaseFulfillment(us-central1)]: Successful update operation. 
+[info] 
+[info] ✔  Deploy complete!
+[info] 
+[info] Please note that it can take up to 30 seconds for your updated functions to propagate.
+[info] Project Console: https://console.firebase.google.com/project/hackxx-b5b0f/overview
+[debug] [2019-04-06T17:56:16.986Z] ----------------------------------------------------------------------
+[debug] [2019-04-06T17:56:16.991Z] Command:       /Users/saurabhkanhegaonkar/.nvm/versions/node/v10.15.3/bin/node /Users/saurabhkanhegaonkar/.nvm/versions/node/v10.15.3/bin/firebase deploy --only functions --debug
+[debug] [2019-04-06T17:56:16.991Z] CLI Version:   6.5.3
+[debug] [2019-04-06T17:56:16.992Z] Platform:      darwin
+[debug] [2019-04-06T17:56:16.992Z] Node Version:  v10.15.3
+[debug] [2019-04-06T17:56:16.996Z] Time:          Sat Apr 06 2019 10:56:16 GMT-0700 (Pacific Daylight Time)
+[debug] [2019-04-06T17:56:16.997Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2019-04-06T17:56:17.015Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2019-04-06T17:56:17.017Z] > authorizing via signed-in user
+[debug] [2019-04-06T17:56:17.018Z] [iam] checking project hackxx-b5b0f for permissions ["cloudfunctions.functions.create","cloudfunctions.functions.delete","cloudfunctions.functions.get","cloudfunctions.functions.list","cloudfunctions.functions.update","cloudfunctions.operations.get","firebase.projects.get"]
+[debug] [2019-04-06T17:56:17.022Z] >>> HTTP REQUEST POST https://cloudresourcemanager.googleapis.com/v1/projects/hackxx-b5b0f:testIamPermissions  
+
+[debug] [2019-04-06T17:56:17.416Z] <<< HTTP RESPONSE 200
+[info] 
+[info] === Deploying to 'hackxx-b5b0f'...
+[info] 
+[info] i  deploying functions
+[info] Running command: npm --prefix "$RESOURCE_DIR" run lint
+[info] ✔  functions: Finished running predeploy script.
+[debug] [2019-04-06T17:56:20.702Z] > [functions] package.json contents: {
+  "name": "functions",
+  "description": "Cloud Functions for Firebase",
+  "scripts": {
+    "lint": "eslint .",
+    "serve": "firebase serve --only functions",
+    "shell": "firebase functions:shell",
+    "start": "npm run shell",
+    "deploy": "firebase deploy --only functions",
+    "logs": "firebase functions:log"
+  },
+  "dependencies": {
+    "actions-on-google": "^2.6.0",
+    "dialogflow-fulfillment": "^0.6.1",
+    "firebase-admin": "~7.0.0",
+    "firebase-functions": "^2.2.0"
+  },
+  "devDependencies": {
+    "eslint": "^5.12.0",
+    "eslint-plugin-promise": "^4.0.1"
+  },
+  "private": true
+}
+[info] i  functions: ensuring necessary APIs are enabled...
+[debug] [2019-04-06T17:56:20.704Z] >>> HTTP REQUEST GET https://servicemanagement.googleapis.com/v1/services/cloudfunctions.googleapis.com/projectSettings/hackxx-b5b0f?view=CONSUMER_VIEW  
+ 
+[debug] [2019-04-06T17:56:20.705Z] >>> HTTP REQUEST GET https://servicemanagement.googleapis.com/v1/services/runtimeconfig.googleapis.com/projectSettings/hackxx-b5b0f?view=CONSUMER_VIEW  
+ 
+[debug] [2019-04-06T17:56:21.725Z] <<< HTTP RESPONSE 200
+[debug] [2019-04-06T17:56:21.747Z] <<< HTTP RESPONSE 200
+[info] ✔  functions: all necessary APIs are enabled
+[debug] [2019-04-06T17:56:21.749Z] >>> HTTP REQUEST GET https://cloudresourcemanager.googleapis.com/v1/projects/hackxx-b5b0f  
+ 
+[debug] [2019-04-06T17:56:22.089Z] <<< HTTP RESPONSE 200
+[debug] [2019-04-06T17:56:22.090Z] >>> HTTP REQUEST GET https://mobilesdk-pa.googleapis.com/v1/projects/1031789119217:getServerAppConfig  
+ 
+[debug] [2019-04-06T17:56:22.291Z] <<< HTTP RESPONSE 200
+[info] i  functions: preparing ./ directory for uploading...
+[debug] [2019-04-06T17:56:22.294Z] >>> HTTP REQUEST GET https://runtimeconfig.googleapis.com/v1beta1/projects/hackxx-b5b0f/configs  
+ 
+[debug] [2019-04-06T17:56:22.528Z] <<< HTTP RESPONSE 200
+[info] i  functions: packaged ./ (42.1 KB) for uploading
+[debug] [2019-04-06T17:56:23.327Z] >>> HTTP REQUEST POST https://cloudfunctions.googleapis.com/v1/projects/hackxx-b5b0f/locations/us-central1/functions:generateUploadUrl  
+ 
+[debug] [2019-04-06T17:56:23.876Z] <<< HTTP RESPONSE 200
+[debug] [2019-04-06T17:56:23.877Z] >>> HTTP REQUEST PUT https://storage.googleapis.com/gcf-upload-us-central1-f570dd25-1b1a-4e66-bfac-1a2d8a14bd74/6f9aed65-fdb1-4f14-848e-18d6fa6b4a60.zip?GoogleAccessId=service-1031789119217@gcf-admin-robot.iam.gserviceaccount.com&Expires=1554575183&Signature=i4aXVljWhAwss9ABkl1fcEC8gKLw1NIZUHfCXudPFFpDKQAwrDjDDzp95%2BlN6%2BXEJ8K9j0tEyK%2Btgt0lBbhjT6wrEkWDiWJXMEY%2FLAFRZjtum1oZWXucNkuNBSaeuKiKuJ8jtBWCjeDcwL0PcsYyVedRqZg2wxgUlSCkN47xVb0RlzEuLhnaP9zMhPMjLyfP1WoJw245rcEaMtZMlLMK3KQ4WAY5%2FTvRmjeMV5SWOMKBIKRhNOd03cDegVgyDes57t5OZ0ak5D65gMofYMp9oGvx13H6l1k7p5Z4f1Nd4RtEvFy5LvOmDYS0DTmBhN5SF%2BFZ199Hld%2BTBSxPd6jwOg%3D%3D  
+
+[debug] [2019-04-06T17:56:25.083Z] <<< HTTP RESPONSE 200
+[info] ✔  functions: ./ folder uploaded successfully
+[debug] [2019-04-06T17:56:25.086Z] >>> HTTP REQUEST GET https://cloudfunctions.googleapis.com/v1/projects/hackxx-b5b0f/locations/-/functions  
+ 
+[debug] [2019-04-06T17:56:25.688Z] <<< HTTP RESPONSE 200
+[info] i  functions: updating Node.js 6 function dialogflowFirebaseFulfillment(us-central1)...
+[debug] [2019-04-06T17:56:25.696Z] Trigger is:  {"httpsTrigger":{}}
+[debug] [2019-04-06T17:56:25.700Z] >>> HTTP REQUEST PATCH https://cloudfunctions.googleapis.com/v1/projects/hackxx-b5b0f/locations/us-central1/functions/dialogflowFirebaseFulfillment {"updateMask":"sourceUploadUrl,name,labels,httpsTrigger"} 
+
+[debug] [2019-04-06T17:56:26.275Z] <<< HTTP RESPONSE 200
+[debug] [2019-04-06T17:56:26.277Z] >>> HTTP REQUEST GET https://cloudfunctions.googleapis.com/v1/projects/hackxx-b5b0f/locations/-/functions  
+ 
+[debug] [2019-04-06T17:56:26.641Z] <<< HTTP RESPONSE 200
+[debug] [2019-04-06T17:56:26.644Z] >>> HTTP REQUEST GET https://cloudfunctions.googleapis.com/v1/operations/aGFja3h4LWI1YjBmL3VzLWNlbnRyYWwxL2RpYWxvZ2Zsb3dGaXJlYmFzZUZ1bGZpbGxtZW50L0tMNll0WVlXVHBZ  
+ 
+[debug] [2019-04-06T17:56:26.860Z] <<< HTTP RESPONSE 200
+[debug] [2019-04-06T17:56:28.864Z] >>> HTTP REQUEST GET https://cloudfunctions.googleapis.com/v1/operations/aGFja3h4LWI1YjBmL3VzLWNlbnRyYWwxL2RpYWxvZ2Zsb3dGaXJlYmFzZUZ1bGZpbGxtZW50L0tMNll0WVlXVHBZ  
+ 
+[debug] [2019-04-06T17:56:29.317Z] <<< HTTP RESPONSE 200
+[debug] [2019-04-06T17:56:31.321Z] >>> HTTP REQUEST GET https://cloudfunctions.googleapis.com/v1/operations/aGFja3h4LWI1YjBmL3VzLWNlbnRyYWwxL2RpYWxvZ2Zsb3dGaXJlYmFzZUZ1bGZpbGxtZW50L0tMNll0WVlXVHBZ  
+ 
+[debug] [2019-04-06T17:56:31.775Z] <<< HTTP RESPONSE 200
+[debug] [2019-04-06T17:56:33.781Z] >>> HTTP REQUEST GET https://cloudfunctions.googleapis.com/v1/operations/aGFja3h4LWI1YjBmL3VzLWNlbnRyYWwxL2RpYWxvZ2Zsb3dGaXJlYmFzZUZ1bGZpbGxtZW50L0tMNll0WVlXVHBZ  
+ 
+[debug] [2019-04-06T17:56:34.210Z] <<< HTTP RESPONSE 200
+[debug] [2019-04-06T17:56:36.214Z] >>> HTTP REQUEST GET https://cloudfunctions.googleapis.com/v1/operations/aGFja3h4LWI1YjBmL3VzLWNlbnRyYWwxL2RpYWxvZ2Zsb3dGaXJlYmFzZUZ1bGZpbGxtZW50L0tMNll0WVlXVHBZ  
+ 
+[debug] [2019-04-06T17:56:36.633Z] <<< HTTP RESPONSE 200
+[debug] [2019-04-06T17:56:38.636Z] >>> HTTP REQUEST GET https://cloudfunctions.googleapis.com/v1/operations/aGFja3h4LWI1YjBmL3VzLWNlbnRyYWwxL2RpYWxvZ2Zsb3dGaXJlYmFzZUZ1bGZpbGxtZW50L0tMNll0WVlXVHBZ  
+ 
+[debug] [2019-04-06T17:56:39.094Z] <<< HTTP RESPONSE 200
+[debug] [2019-04-06T17:56:41.099Z] >>> HTTP REQUEST GET https://cloudfunctions.googleapis.com/v1/operations/aGFja3h4LWI1YjBmL3VzLWNlbnRyYWwxL2RpYWxvZ2Zsb3dGaXJlYmFzZUZ1bGZpbGxtZW50L0tMNll0WVlXVHBZ  
+ 
+[debug] [2019-04-06T17:56:41.522Z] <<< HTTP RESPONSE 200
+[debug] [2019-04-06T17:56:43.524Z] >>> HTTP REQUEST GET https://cloudfunctions.googleapis.com/v1/operations/aGFja3h4LWI1YjBmL3VzLWNlbnRyYWwxL2RpYWxvZ2Zsb3dGaXJlYmFzZUZ1bGZpbGxtZW50L0tMNll0WVlXVHBZ  
+ 
+[debug] [2019-04-06T17:56:43.704Z] <<< HTTP RESPONSE 200
+[debug] [2019-04-06T17:56:45.709Z] >>> HTTP REQUEST GET https://cloudfunctions.googleapis.com/v1/operations/aGFja3h4LWI1YjBmL3VzLWNlbnRyYWwxL2RpYWxvZ2Zsb3dGaXJlYmFzZUZ1bGZpbGxtZW50L0tMNll0WVlXVHBZ  
+ 
+[debug] [2019-04-06T17:56:46.172Z] <<< HTTP RESPONSE 200
+[debug] [2019-04-06T17:56:48.175Z] >>> HTTP REQUEST GET https://cloudfunctions.googleapis.com/v1/operations/aGFja3h4LWI1YjBmL3VzLWNlbnRyYWwxL2RpYWxvZ2Zsb3dGaXJlYmFzZUZ1bGZpbGxtZW50L0tMNll0WVlXVHBZ  
+ 
+[debug] [2019-04-06T17:56:48.672Z] <<< HTTP RESPONSE 200
+[debug] [2019-04-06T17:56:50.675Z] >>> HTTP REQUEST GET https://cloudfunctions.googleapis.com/v1/operations/aGFja3h4LWI1YjBmL3VzLWNlbnRyYWwxL2RpYWxvZ2Zsb3dGaXJlYmFzZUZ1bGZpbGxtZW50L0tMNll0WVlXVHBZ  
+ 
+[debug] [2019-04-06T17:56:51.129Z] <<< HTTP RESPONSE 200
+[debug] [2019-04-06T17:56:53.134Z] >>> HTTP REQUEST GET https://cloudfunctions.googleapis.com/v1/operations/aGFja3h4LWI1YjBmL3VzLWNlbnRyYWwxL2RpYWxvZ2Zsb3dGaXJlYmFzZUZ1bGZpbGxtZW50L0tMNll0WVlXVHBZ  
+ 
+[debug] [2019-04-06T17:56:53.585Z] <<< HTTP RESPONSE 200
+[debug] [2019-04-06T17:56:55.587Z] >>> HTTP REQUEST GET https://cloudfunctions.googleapis.com/v1/operations/aGFja3h4LWI1YjBmL3VzLWNlbnRyYWwxL2RpYWxvZ2Zsb3dGaXJlYmFzZUZ1bGZpbGxtZW50L0tMNll0WVlXVHBZ  
+ 
+[debug] [2019-04-06T17:56:55.795Z] <<< HTTP RESPONSE 200
+[debug] [2019-04-06T17:56:57.799Z] >>> HTTP REQUEST GET https://cloudfunctions.googleapis.com/v1/operations/aGFja3h4LWI1YjBmL3VzLWNlbnRyYWwxL2RpYWxvZ2Zsb3dGaXJlYmFzZUZ1bGZpbGxtZW50L0tMNll0WVlXVHBZ  
+ 
+[debug] [2019-04-06T17:56:58.297Z] <<< HTTP RESPONSE 200
+[debug] [2019-04-06T17:57:00.301Z] >>> HTTP REQUEST GET https://cloudfunctions.googleapis.com/v1/operations/aGFja3h4LWI1YjBmL3VzLWNlbnRyYWwxL2RpYWxvZ2Zsb3dGaXJlYmFzZUZ1bGZpbGxtZW50L0tMNll0WVlXVHBZ  
+ 
+[debug] [2019-04-06T17:57:00.753Z] <<< HTTP RESPONSE 200
+[debug] [2019-04-06T17:57:02.758Z] >>> HTTP REQUEST GET https://cloudfunctions.googleapis.com/v1/operations/aGFja3h4LWI1YjBmL3VzLWNlbnRyYWwxL2RpYWxvZ2Zsb3dGaXJlYmFzZUZ1bGZpbGxtZW50L0tMNll0WVlXVHBZ  
+ 
+[debug] [2019-04-06T17:57:02.938Z] <<< HTTP RESPONSE 200
+[debug] [2019-04-06T17:57:04.942Z] >>> HTTP REQUEST GET https://cloudfunctions.googleapis.com/v1/operations/aGFja3h4LWI1YjBmL3VzLWNlbnRyYWwxL2RpYWxvZ2Zsb3dGaXJlYmFzZUZ1bGZpbGxtZW50L0tMNll0WVlXVHBZ  
+ 
+[debug] [2019-04-06T17:57:05.118Z] <<< HTTP RESPONSE 200
+[debug] [2019-04-06T17:57:07.121Z] >>> HTTP REQUEST GET https://cloudfunctions.googleapis.com/v1/operations/aGFja3h4LWI1YjBmL3VzLWNlbnRyYWwxL2RpYWxvZ2Zsb3dGaXJlYmFzZUZ1bGZpbGxtZW50L0tMNll0WVlXVHBZ  
+ 
+[debug] [2019-04-06T17:57:07.615Z] <<< HTTP RESPONSE 200
+[debug] [2019-04-06T17:57:09.621Z] >>> HTTP REQUEST GET https://cloudfunctions.googleapis.com/v1/operations/aGFja3h4LWI1YjBmL3VzLWNlbnRyYWwxL2RpYWxvZ2Zsb3dGaXJlYmFzZUZ1bGZpbGxtZW50L0tMNll0WVlXVHBZ  
+ 
+[debug] [2019-04-06T17:57:10.033Z] <<< HTTP RESPONSE 200
+[debug] [2019-04-06T17:57:12.038Z] >>> HTTP REQUEST GET https://cloudfunctions.googleapis.com/v1/operations/aGFja3h4LWI1YjBmL3VzLWNlbnRyYWwxL2RpYWxvZ2Zsb3dGaXJlYmFzZUZ1bGZpbGxtZW50L0tMNll0WVlXVHBZ  
+ 
+[debug] [2019-04-06T17:57:12.532Z] <<< HTTP RESPONSE 200
+[debug] [2019-04-06T17:57:14.536Z] >>> HTTP REQUEST GET https://cloudfunctions.googleapis.com/v1/operations/aGFja3h4LWI1YjBmL3VzLWNlbnRyYWwxL2RpYWxvZ2Zsb3dGaXJlYmFzZUZ1bGZpbGxtZW50L0tMNll0WVlXVHBZ  
+ 
+[debug] [2019-04-06T17:57:14.988Z] <<< HTTP RESPONSE 200
+[info] ✔  functions[dialogflowFirebaseFulfillment(us-central1)]: Successful update operation. 
+[info] 
+[info] ✔  Deploy complete!
+[info] 
+[info] Please note that it can take up to 30 seconds for your updated functions to propagate.
+[info] Project Console: https://console.firebase.google.com/project/hackxx-b5b0f/overview
+[debug] [2019-04-06T18:04:23.443Z] ----------------------------------------------------------------------
+[debug] [2019-04-06T18:04:23.452Z] Command:       /Users/saurabhkanhegaonkar/.nvm/versions/node/v10.15.3/bin/node /Users/saurabhkanhegaonkar/.nvm/versions/node/v10.15.3/bin/firebase deploy --only functions --debug
+[debug] [2019-04-06T18:04:23.454Z] CLI Version:   6.5.3
+[debug] [2019-04-06T18:04:23.455Z] Platform:      darwin
+[debug] [2019-04-06T18:04:23.455Z] Node Version:  v10.15.3
+[debug] [2019-04-06T18:04:23.460Z] Time:          Sat Apr 06 2019 11:04:23 GMT-0700 (Pacific Daylight Time)
+[debug] [2019-04-06T18:04:23.460Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2019-04-06T18:04:23.474Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2019-04-06T18:04:23.476Z] > authorizing via signed-in user
+[debug] [2019-04-06T18:04:23.477Z] [iam] checking project hackxx-b5b0f for permissions ["cloudfunctions.functions.create","cloudfunctions.functions.delete","cloudfunctions.functions.get","cloudfunctions.functions.list","cloudfunctions.functions.update","cloudfunctions.operations.get","firebase.projects.get"]
+[debug] [2019-04-06T18:04:23.483Z] >>> HTTP REQUEST POST https://cloudresourcemanager.googleapis.com/v1/projects/hackxx-b5b0f:testIamPermissions  
+
+[debug] [2019-04-06T18:04:23.953Z] <<< HTTP RESPONSE 200
+[info] 
+[info] === Deploying to 'hackxx-b5b0f'...
+[info] 
+[info] i  deploying functions
+[info] Running command: npm --prefix "$RESOURCE_DIR" run lint
+[info] ✔  functions: Finished running predeploy script.
+[debug] [2019-04-06T18:04:27.156Z] > [functions] package.json contents: {
+  "name": "functions",
+  "description": "Cloud Functions for Firebase",
+  "scripts": {
+    "lint": "eslint .",
+    "serve": "firebase serve --only functions",
+    "shell": "firebase functions:shell",
+    "start": "npm run shell",
+    "deploy": "firebase deploy --only functions",
+    "logs": "firebase functions:log"
+  },
+  "dependencies": {
+    "actions-on-google": "^2.6.0",
+    "dialogflow-fulfillment": "^0.6.1",
+    "firebase-admin": "~7.0.0",
+    "firebase-functions": "^2.2.0"
+  },
+  "devDependencies": {
+    "eslint": "^5.12.0",
+    "eslint-plugin-promise": "^4.0.1"
+  },
+  "private": true
+}
+[info] i  functions: ensuring necessary APIs are enabled...
+[debug] [2019-04-06T18:04:27.159Z] >>> HTTP REQUEST GET https://servicemanagement.googleapis.com/v1/services/cloudfunctions.googleapis.com/projectSettings/hackxx-b5b0f?view=CONSUMER_VIEW  
+ 
+[debug] [2019-04-06T18:04:27.161Z] >>> HTTP REQUEST GET https://servicemanagement.googleapis.com/v1/services/runtimeconfig.googleapis.com/projectSettings/hackxx-b5b0f?view=CONSUMER_VIEW  
+ 
+[debug] [2019-04-06T18:04:28.148Z] <<< HTTP RESPONSE 200
+[debug] [2019-04-06T18:04:28.177Z] <<< HTTP RESPONSE 200
+[info] ✔  functions: all necessary APIs are enabled
+[debug] [2019-04-06T18:04:28.178Z] >>> HTTP REQUEST GET https://cloudresourcemanager.googleapis.com/v1/projects/hackxx-b5b0f  
+ 
+[debug] [2019-04-06T18:04:28.513Z] <<< HTTP RESPONSE 200
+[debug] [2019-04-06T18:04:28.514Z] >>> HTTP REQUEST GET https://mobilesdk-pa.googleapis.com/v1/projects/1031789119217:getServerAppConfig  
+ 
+[debug] [2019-04-06T18:04:28.741Z] <<< HTTP RESPONSE 200
+[info] i  functions: preparing ./ directory for uploading...
+[debug] [2019-04-06T18:04:28.744Z] >>> HTTP REQUEST GET https://runtimeconfig.googleapis.com/v1beta1/projects/hackxx-b5b0f/configs  
+ 
+[debug] [2019-04-06T18:04:29.478Z] <<< HTTP RESPONSE 200
+[info] i  functions: packaged ./ (42.24 KB) for uploading
+[debug] [2019-04-06T18:04:30.180Z] >>> HTTP REQUEST POST https://cloudfunctions.googleapis.com/v1/projects/hackxx-b5b0f/locations/us-central1/functions:generateUploadUrl  
+ 
+[debug] [2019-04-06T18:04:30.809Z] <<< HTTP RESPONSE 200
+[debug] [2019-04-06T18:04:30.811Z] >>> HTTP REQUEST PUT https://storage.googleapis.com/gcf-upload-us-central1-f570dd25-1b1a-4e66-bfac-1a2d8a14bd74/2243d87d-47b1-43c7-904d-485712d31a23.zip?GoogleAccessId=service-1031789119217@gcf-admin-robot.iam.gserviceaccount.com&Expires=1554575670&Signature=eLSlwcNE82pDwFLJEGwQC6t66BZhUBPY%2B5PtxgGwsOKXWa4jsnHR0FBJtZicFDJ%2B7eTTQGlq%2BgGuNALghCnxLGv2CI30%2BF5y2PBdl%2FYYd4GNuQb2gNf%2F517YqWBnQQDQ0XLQZpRikpoPHek5xLCkC%2Bh0qxBR38xNqwOsFGEc2RziNem%2BBK29qN2NZm%2BzcM7ZWhdVfZYW%2BD8zuP5DTCmvw8Khn9xWs8PxAVm6VLQv8YkubYo02kq6osLBBZ6Zu6lySD3Gy5aq3sL4hAFn6oVlJ8qEkyfnJAeHPVVhDRkR6%2BX1QK5uWBrjSPAeBIPkt3wl2K2kFjP%2Fvj7XaHk9e6Fdgw%3D%3D  
+
+[debug] [2019-04-06T18:04:32.237Z] <<< HTTP RESPONSE 200
+[info] ✔  functions: ./ folder uploaded successfully
+[debug] [2019-04-06T18:04:32.239Z] >>> HTTP REQUEST GET https://cloudfunctions.googleapis.com/v1/projects/hackxx-b5b0f/locations/-/functions  
+ 
+[debug] [2019-04-06T18:04:32.653Z] <<< HTTP RESPONSE 200
+[info] i  functions: updating Node.js 6 function dialogflowFirebaseFulfillment(us-central1)...
+[debug] [2019-04-06T18:04:32.657Z] Trigger is:  {"httpsTrigger":{}}
+[debug] [2019-04-06T18:04:32.659Z] >>> HTTP REQUEST PATCH https://cloudfunctions.googleapis.com/v1/projects/hackxx-b5b0f/locations/us-central1/functions/dialogflowFirebaseFulfillment {"updateMask":"sourceUploadUrl,name,labels,httpsTrigger"} 
+
+[debug] [2019-04-06T18:04:33.267Z] <<< HTTP RESPONSE 200
+[debug] [2019-04-06T18:04:33.272Z] >>> HTTP REQUEST GET https://cloudfunctions.googleapis.com/v1/projects/hackxx-b5b0f/locations/-/functions  
+ 
+[debug] [2019-04-06T18:04:33.882Z] <<< HTTP RESPONSE 200
+[debug] [2019-04-06T18:04:33.887Z] >>> HTTP REQUEST GET https://cloudfunctions.googleapis.com/v1/operations/aGFja3h4LWI1YjBmL3VzLWNlbnRyYWwxL2RpYWxvZ2Zsb3dGaXJlYmFzZUZ1bGZpbGxtZW50L0w0R0haU0U2aFQ0  
+ 
+[debug] [2019-04-06T18:04:34.394Z] <<< HTTP RESPONSE 200
+[debug] [2019-04-06T18:04:36.400Z] >>> HTTP REQUEST GET https://cloudfunctions.googleapis.com/v1/operations/aGFja3h4LWI1YjBmL3VzLWNlbnRyYWwxL2RpYWxvZ2Zsb3dGaXJlYmFzZUZ1bGZpbGxtZW50L0w0R0haU0U2aFQ0  
+ 
+[debug] [2019-04-06T18:04:36.674Z] <<< HTTP RESPONSE 200
+[debug] [2019-04-06T18:04:38.677Z] >>> HTTP REQUEST GET https://cloudfunctions.googleapis.com/v1/operations/aGFja3h4LWI1YjBmL3VzLWNlbnRyYWwxL2RpYWxvZ2Zsb3dGaXJlYmFzZUZ1bGZpbGxtZW50L0w0R0haU0U2aFQ0  
+ 
+[debug] [2019-04-06T18:04:39.105Z] <<< HTTP RESPONSE 200
+[debug] [2019-04-06T18:04:41.110Z] >>> HTTP REQUEST GET https://cloudfunctions.googleapis.com/v1/operations/aGFja3h4LWI1YjBmL3VzLWNlbnRyYWwxL2RpYWxvZ2Zsb3dGaXJlYmFzZUZ1bGZpbGxtZW50L0w0R0haU0U2aFQ0  
+ 
+[debug] [2019-04-06T18:04:41.299Z] <<< HTTP RESPONSE 200
+[debug] [2019-04-06T18:04:43.304Z] >>> HTTP REQUEST GET https://cloudfunctions.googleapis.com/v1/operations/aGFja3h4LWI1YjBmL3VzLWNlbnRyYWwxL2RpYWxvZ2Zsb3dGaXJlYmFzZUZ1bGZpbGxtZW50L0w0R0haU0U2aFQ0  
+ 
+[debug] [2019-04-06T18:04:43.815Z] <<< HTTP RESPONSE 200
+[debug] [2019-04-06T18:04:45.818Z] >>> HTTP REQUEST GET https://cloudfunctions.googleapis.com/v1/operations/aGFja3h4LWI1YjBmL3VzLWNlbnRyYWwxL2RpYWxvZ2Zsb3dGaXJlYmFzZUZ1bGZpbGxtZW50L0w0R0haU0U2aFQ0  
+ 
+[debug] [2019-04-06T18:04:46.272Z] <<< HTTP RESPONSE 200
+[debug] [2019-04-06T18:04:48.278Z] >>> HTTP REQUEST GET https://cloudfunctions.googleapis.com/v1/operations/aGFja3h4LWI1YjBmL3VzLWNlbnRyYWwxL2RpYWxvZ2Zsb3dGaXJlYmFzZUZ1bGZpbGxtZW50L0w0R0haU0U2aFQ0  
+ 
+[debug] [2019-04-06T18:04:48.681Z] <<< HTTP RESPONSE 200
+[debug] [2019-04-06T18:04:50.684Z] >>> HTTP REQUEST GET https://cloudfunctions.googleapis.com/v1/operations/aGFja3h4LWI1YjBmL3VzLWNlbnRyYWwxL2RpYWxvZ2Zsb3dGaXJlYmFzZUZ1bGZpbGxtZW50L0w0R0haU0U2aFQ0  
+ 
+[debug] [2019-04-06T18:04:51.187Z] <<< HTTP RESPONSE 200
+[debug] [2019-04-06T18:04:53.191Z] >>> HTTP REQUEST GET https://cloudfunctions.googleapis.com/v1/operations/aGFja3h4LWI1YjBmL3VzLWNlbnRyYWwxL2RpYWxvZ2Zsb3dGaXJlYmFzZUZ1bGZpbGxtZW50L0w0R0haU0U2aFQ0  
+ 
+[debug] [2019-04-06T18:04:53.608Z] <<< HTTP RESPONSE 200
+[debug] [2019-04-06T18:04:55.612Z] >>> HTTP REQUEST GET https://cloudfunctions.googleapis.com/v1/operations/aGFja3h4LWI1YjBmL3VzLWNlbnRyYWwxL2RpYWxvZ2Zsb3dGaXJlYmFzZUZ1bGZpbGxtZW50L0w0R0haU0U2aFQ0  
+ 
+[debug] [2019-04-06T18:04:56.063Z] <<< HTTP RESPONSE 200
+[debug] [2019-04-06T18:04:58.064Z] >>> HTTP REQUEST GET https://cloudfunctions.googleapis.com/v1/operations/aGFja3h4LWI1YjBmL3VzLWNlbnRyYWwxL2RpYWxvZ2Zsb3dGaXJlYmFzZUZ1bGZpbGxtZW50L0w0R0haU0U2aFQ0  
+ 
+[debug] [2019-04-06T18:04:58.460Z] <<< HTTP RESPONSE 200
+[debug] [2019-04-06T18:05:00.465Z] >>> HTTP REQUEST GET https://cloudfunctions.googleapis.com/v1/operations/aGFja3h4LWI1YjBmL3VzLWNlbnRyYWwxL2RpYWxvZ2Zsb3dGaXJlYmFzZUZ1bGZpbGxtZW50L0w0R0haU0U2aFQ0  
+ 
+[debug] [2019-04-06T18:05:00.916Z] <<< HTTP RESPONSE 200
+[info] ✔  functions[dialogflowFirebaseFulfillment(us-central1)]: Successful update operation. 
+[info] 
+[info] ✔  Deploy complete!
+[info] 
+[info] Please note that it can take up to 30 seconds for your updated functions to propagate.
+[info] Project Console: https://console.firebase.google.com/project/hackxx-b5b0f/overview
+[debug] [2019-04-06T18:09:12.977Z] ----------------------------------------------------------------------
+[debug] [2019-04-06T18:09:12.994Z] Command:       /Users/saurabhkanhegaonkar/.nvm/versions/node/v10.15.3/bin/node /Users/saurabhkanhegaonkar/.nvm/versions/node/v10.15.3/bin/firebase deploy --only functions --debug
+[debug] [2019-04-06T18:09:12.997Z] CLI Version:   6.5.3
+[debug] [2019-04-06T18:09:12.998Z] Platform:      darwin
+[debug] [2019-04-06T18:09:12.999Z] Node Version:  v10.15.3
+[debug] [2019-04-06T18:09:13.012Z] Time:          Sat Apr 06 2019 11:09:13 GMT-0700 (Pacific Daylight Time)
+[debug] [2019-04-06T18:09:13.012Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2019-04-06T18:09:13.042Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2019-04-06T18:09:13.043Z] > authorizing via signed-in user
+[debug] [2019-04-06T18:09:13.043Z] [iam] checking project hackxx-b5b0f for permissions ["cloudfunctions.functions.create","cloudfunctions.functions.delete","cloudfunctions.functions.get","cloudfunctions.functions.list","cloudfunctions.functions.update","cloudfunctions.operations.get","firebase.projects.get"]
+[debug] [2019-04-06T18:09:13.047Z] > refreshing access token with scopes: ["email","https://www.googleapis.com/auth/cloud-platform","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","openid"]
+[debug] [2019-04-06T18:09:13.047Z] >>> HTTP REQUEST POST https://www.googleapis.com/oauth2/v3/token  
+ <request body omitted>
+[debug] [2019-04-06T18:09:13.352Z] <<< HTTP RESPONSE 200
+[debug] [2019-04-06T18:09:13.372Z] >>> HTTP REQUEST POST https://cloudresourcemanager.googleapis.com/v1/projects/hackxx-b5b0f:testIamPermissions  
+
+[debug] [2019-04-06T18:09:13.702Z] <<< HTTP RESPONSE 200
+[info] 
+[info] === Deploying to 'hackxx-b5b0f'...
+[info] 
+[info] i  deploying functions
+[info] Running command: npm --prefix "$RESOURCE_DIR" run lint
+[info] ✔  functions: Finished running predeploy script.
+[debug] [2019-04-06T18:09:18.734Z] > [functions] package.json contents: {
+  "name": "functions",
+  "description": "Cloud Functions for Firebase",
+  "scripts": {
+    "lint": "eslint .",
+    "serve": "firebase serve --only functions",
+    "shell": "firebase functions:shell",
+    "start": "npm run shell",
+    "deploy": "firebase deploy --only functions",
+    "logs": "firebase functions:log"
+  },
+  "dependencies": {
+    "actions-on-google": "^2.6.0",
+    "dialogflow-fulfillment": "^0.6.1",
+    "firebase-admin": "~7.0.0",
+    "firebase-functions": "^2.2.0"
+  },
+  "devDependencies": {
+    "eslint": "^5.12.0",
+    "eslint-plugin-promise": "^4.0.1"
+  },
+  "private": true
+}
+[info] i  functions: ensuring necessary APIs are enabled...
+[debug] [2019-04-06T18:09:18.736Z] >>> HTTP REQUEST GET https://servicemanagement.googleapis.com/v1/services/cloudfunctions.googleapis.com/projectSettings/hackxx-b5b0f?view=CONSUMER_VIEW  
+ 
+[debug] [2019-04-06T18:09:18.737Z] >>> HTTP REQUEST GET https://servicemanagement.googleapis.com/v1/services/runtimeconfig.googleapis.com/projectSettings/hackxx-b5b0f?view=CONSUMER_VIEW  
+ 
+[debug] [2019-04-06T18:09:19.698Z] <<< HTTP RESPONSE 200
+[debug] [2019-04-06T18:09:19.742Z] <<< HTTP RESPONSE 200
+[info] ✔  functions: all necessary APIs are enabled
+[debug] [2019-04-06T18:09:19.743Z] >>> HTTP REQUEST GET https://cloudresourcemanager.googleapis.com/v1/projects/hackxx-b5b0f  
+ 
+[debug] [2019-04-06T18:09:20.088Z] <<< HTTP RESPONSE 200
+[debug] [2019-04-06T18:09:20.089Z] >>> HTTP REQUEST GET https://mobilesdk-pa.googleapis.com/v1/projects/1031789119217:getServerAppConfig  
+ 
+[debug] [2019-04-06T18:09:20.287Z] <<< HTTP RESPONSE 200
+[info] i  functions: preparing ./ directory for uploading...
+[debug] [2019-04-06T18:09:20.289Z] >>> HTTP REQUEST GET https://runtimeconfig.googleapis.com/v1beta1/projects/hackxx-b5b0f/configs  
+ 
+[debug] [2019-04-06T18:09:20.508Z] <<< HTTP RESPONSE 200
+[info] i  functions: packaged ./ (42.25 KB) for uploading
+[debug] [2019-04-06T18:09:21.586Z] >>> HTTP REQUEST POST https://cloudfunctions.googleapis.com/v1/projects/hackxx-b5b0f/locations/us-central1/functions:generateUploadUrl  
+ 
+[debug] [2019-04-06T18:09:22.161Z] <<< HTTP RESPONSE 200
+[debug] [2019-04-06T18:09:22.164Z] >>> HTTP REQUEST PUT https://storage.googleapis.com/gcf-upload-us-central1-f570dd25-1b1a-4e66-bfac-1a2d8a14bd74/413536b4-b6cc-4d3f-8419-d66120990043.zip?GoogleAccessId=service-1031789119217@gcf-admin-robot.iam.gserviceaccount.com&Expires=1554575962&Signature=IXOvGlxu62CPRhisvk0RYwrbIns%2FbVRw7xtnXmRpQtSjAlCYMBA35Wijy0yGMmeOp4BIMmuWpY3F3e0PbvyVUZtBh0IrQ4d3HdJ4hOkOuz58zZ2ZxNcFTVlI9lGbM1%2FIuMkmMuchMx5fetfW74Axd58Hc9iX5k3XOJLvH%2BqWBhMe35p3Mp7KRcTuimgeJHq5SBr7sHEHLILrf2NzsYBwGl35dUMbzWd39JNr2Rn2B34OATEINGxghhIvW2WvOIMjyg3J8Ibr%2FhMhFlzSjX%2BLXrJU9LT98kSv1JMi2pvK%2B8e0ro4i833Tyj1k5xKXVxgvWUsa6KdkfzW9%2B5A2bMvHJg%3D%3D  
+
+[debug] [2019-04-06T18:09:23.254Z] <<< HTTP RESPONSE 200
+[info] ✔  functions: ./ folder uploaded successfully
+[debug] [2019-04-06T18:09:23.256Z] >>> HTTP REQUEST GET https://cloudfunctions.googleapis.com/v1/projects/hackxx-b5b0f/locations/-/functions  
+ 
+[debug] [2019-04-06T18:09:23.860Z] <<< HTTP RESPONSE 200
+[info] i  functions: updating Node.js 6 function dialogflowFirebaseFulfillment(us-central1)...
+[debug] [2019-04-06T18:09:23.865Z] Trigger is:  {"httpsTrigger":{}}
+[debug] [2019-04-06T18:09:23.868Z] >>> HTTP REQUEST PATCH https://cloudfunctions.googleapis.com/v1/projects/hackxx-b5b0f/locations/us-central1/functions/dialogflowFirebaseFulfillment {"updateMask":"sourceUploadUrl,name,labels,httpsTrigger"} 
+
+[debug] [2019-04-06T18:09:24.203Z] <<< HTTP RESPONSE 200
+[debug] [2019-04-06T18:09:24.206Z] >>> HTTP REQUEST GET https://cloudfunctions.googleapis.com/v1/projects/hackxx-b5b0f/locations/-/functions  
+ 
+[debug] [2019-04-06T18:09:24.799Z] <<< HTTP RESPONSE 200
+[debug] [2019-04-06T18:09:24.800Z] >>> HTTP REQUEST GET https://cloudfunctions.googleapis.com/v1/operations/aGFja3h4LWI1YjBmL3VzLWNlbnRyYWwxL2RpYWxvZ2Zsb3dGaXJlYmFzZUZ1bGZpbGxtZW50L19RY09XXzZsMDZF  
+ 
+[debug] [2019-04-06T18:09:25.206Z] <<< HTTP RESPONSE 200
+[debug] [2019-04-06T18:09:27.211Z] >>> HTTP REQUEST GET https://cloudfunctions.googleapis.com/v1/operations/aGFja3h4LWI1YjBmL3VzLWNlbnRyYWwxL2RpYWxvZ2Zsb3dGaXJlYmFzZUZ1bGZpbGxtZW50L19RY09XXzZsMDZF  
+ 
+[debug] [2019-04-06T18:09:27.816Z] <<< HTTP RESPONSE 200
+[debug] [2019-04-06T18:09:29.818Z] >>> HTTP REQUEST GET https://cloudfunctions.googleapis.com/v1/operations/aGFja3h4LWI1YjBmL3VzLWNlbnRyYWwxL2RpYWxvZ2Zsb3dGaXJlYmFzZUZ1bGZpbGxtZW50L19RY09XXzZsMDZF  
+ 
+[debug] [2019-04-06T18:09:29.990Z] <<< HTTP RESPONSE 200
+[debug] [2019-04-06T18:09:31.993Z] >>> HTTP REQUEST GET https://cloudfunctions.googleapis.com/v1/operations/aGFja3h4LWI1YjBmL3VzLWNlbnRyYWwxL2RpYWxvZ2Zsb3dGaXJlYmFzZUZ1bGZpbGxtZW50L19RY09XXzZsMDZF  
+ 
+[debug] [2019-04-06T18:09:32.480Z] <<< HTTP RESPONSE 200
+[debug] [2019-04-06T18:09:34.486Z] >>> HTTP REQUEST GET https://cloudfunctions.googleapis.com/v1/operations/aGFja3h4LWI1YjBmL3VzLWNlbnRyYWwxL2RpYWxvZ2Zsb3dGaXJlYmFzZUZ1bGZpbGxtZW50L19RY09XXzZsMDZF  
+ 
+[debug] [2019-04-06T18:09:34.887Z] <<< HTTP RESPONSE 200
+[debug] [2019-04-06T18:09:36.891Z] >>> HTTP REQUEST GET https://cloudfunctions.googleapis.com/v1/operations/aGFja3h4LWI1YjBmL3VzLWNlbnRyYWwxL2RpYWxvZ2Zsb3dGaXJlYmFzZUZ1bGZpbGxtZW50L19RY09XXzZsMDZF  
+ 
+[debug] [2019-04-06T18:09:37.315Z] <<< HTTP RESPONSE 200
+[debug] [2019-04-06T18:09:39.315Z] >>> HTTP REQUEST GET https://cloudfunctions.googleapis.com/v1/operations/aGFja3h4LWI1YjBmL3VzLWNlbnRyYWwxL2RpYWxvZ2Zsb3dGaXJlYmFzZUZ1bGZpbGxtZW50L19RY09XXzZsMDZF  
+ 
+[debug] [2019-04-06T18:09:39.526Z] <<< HTTP RESPONSE 200
+[debug] [2019-04-06T18:09:41.530Z] >>> HTTP REQUEST GET https://cloudfunctions.googleapis.com/v1/operations/aGFja3h4LWI1YjBmL3VzLWNlbnRyYWwxL2RpYWxvZ2Zsb3dGaXJlYmFzZUZ1bGZpbGxtZW50L19RY09XXzZsMDZF  
+ 
+[debug] [2019-04-06T18:09:42.006Z] <<< HTTP RESPONSE 200
+[debug] [2019-04-06T18:09:44.008Z] >>> HTTP REQUEST GET https://cloudfunctions.googleapis.com/v1/operations/aGFja3h4LWI1YjBmL3VzLWNlbnRyYWwxL2RpYWxvZ2Zsb3dGaXJlYmFzZUZ1bGZpbGxtZW50L19RY09XXzZsMDZF  
+ 
+[debug] [2019-04-06T18:09:44.464Z] <<< HTTP RESPONSE 200
+[debug] [2019-04-06T18:09:46.469Z] >>> HTTP REQUEST GET https://cloudfunctions.googleapis.com/v1/operations/aGFja3h4LWI1YjBmL3VzLWNlbnRyYWwxL2RpYWxvZ2Zsb3dGaXJlYmFzZUZ1bGZpbGxtZW50L19RY09XXzZsMDZF  
+ 
+[debug] [2019-04-06T18:09:46.640Z] <<< HTTP RESPONSE 200
+[debug] [2019-04-06T18:09:48.644Z] >>> HTTP REQUEST GET https://cloudfunctions.googleapis.com/v1/operations/aGFja3h4LWI1YjBmL3VzLWNlbnRyYWwxL2RpYWxvZ2Zsb3dGaXJlYmFzZUZ1bGZpbGxtZW50L19RY09XXzZsMDZF  
+ 
+[debug] [2019-04-06T18:09:48.859Z] <<< HTTP RESPONSE 200
+[debug] [2019-04-06T18:09:50.863Z] >>> HTTP REQUEST GET https://cloudfunctions.googleapis.com/v1/operations/aGFja3h4LWI1YjBmL3VzLWNlbnRyYWwxL2RpYWxvZ2Zsb3dGaXJlYmFzZUZ1bGZpbGxtZW50L19RY09XXzZsMDZF  
+ 
+[debug] [2019-04-06T18:09:51.320Z] <<< HTTP RESPONSE 200
+[debug] [2019-04-06T18:09:53.322Z] >>> HTTP REQUEST GET https://cloudfunctions.googleapis.com/v1/operations/aGFja3h4LWI1YjBmL3VzLWNlbnRyYWwxL2RpYWxvZ2Zsb3dGaXJlYmFzZUZ1bGZpbGxtZW50L19RY09XXzZsMDZF  
+ 
+[debug] [2019-04-06T18:09:53.778Z] <<< HTTP RESPONSE 200
+[debug] [2019-04-06T18:09:55.783Z] >>> HTTP REQUEST GET https://cloudfunctions.googleapis.com/v1/operations/aGFja3h4LWI1YjBmL3VzLWNlbnRyYWwxL2RpYWxvZ2Zsb3dGaXJlYmFzZUZ1bGZpbGxtZW50L19RY09XXzZsMDZF  
+ 
+[debug] [2019-04-06T18:09:56.186Z] <<< HTTP RESPONSE 200
+[debug] [2019-04-06T18:09:58.191Z] >>> HTTP REQUEST GET https://cloudfunctions.googleapis.com/v1/operations/aGFja3h4LWI1YjBmL3VzLWNlbnRyYWwxL2RpYWxvZ2Zsb3dGaXJlYmFzZUZ1bGZpbGxtZW50L19RY09XXzZsMDZF  
+ 
+[debug] [2019-04-06T18:09:58.693Z] <<< HTTP RESPONSE 200
+[debug] [2019-04-06T18:10:00.696Z] >>> HTTP REQUEST GET https://cloudfunctions.googleapis.com/v1/operations/aGFja3h4LWI1YjBmL3VzLWNlbnRyYWwxL2RpYWxvZ2Zsb3dGaXJlYmFzZUZ1bGZpbGxtZW50L19RY09XXzZsMDZF  
+ 
+[debug] [2019-04-06T18:10:01.153Z] <<< HTTP RESPONSE 200
+[debug] [2019-04-06T18:10:03.158Z] >>> HTTP REQUEST GET https://cloudfunctions.googleapis.com/v1/operations/aGFja3h4LWI1YjBmL3VzLWNlbnRyYWwxL2RpYWxvZ2Zsb3dGaXJlYmFzZUZ1bGZpbGxtZW50L19RY09XXzZsMDZF  
+ 
+[debug] [2019-04-06T18:10:03.608Z] <<< HTTP RESPONSE 200
+[info] ✔  functions[dialogflowFirebaseFulfillment(us-central1)]: Successful update operation. 
+[info] 
+[info] ✔  Deploy complete!
+[info] 
+[info] Please note that it can take up to 30 seconds for your updated functions to propagate.
+[info] Project Console: https://console.firebase.google.com/project/hackxx-b5b0f/overview
+[debug] [2019-04-06T18:13:39.979Z] ----------------------------------------------------------------------
+[debug] [2019-04-06T18:13:39.983Z] Command:       /Users/saurabhkanhegaonkar/.nvm/versions/node/v10.15.3/bin/node /Users/saurabhkanhegaonkar/.nvm/versions/node/v10.15.3/bin/firebase deploy --only functions --debug
+[debug] [2019-04-06T18:13:39.984Z] CLI Version:   6.5.3
+[debug] [2019-04-06T18:13:39.984Z] Platform:      darwin
+[debug] [2019-04-06T18:13:39.984Z] Node Version:  v10.15.3
+[debug] [2019-04-06T18:13:39.989Z] Time:          Sat Apr 06 2019 11:13:39 GMT-0700 (Pacific Daylight Time)
+[debug] [2019-04-06T18:13:39.989Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2019-04-06T18:13:40.003Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2019-04-06T18:13:40.004Z] > authorizing via signed-in user
+[debug] [2019-04-06T18:13:40.004Z] [iam] checking project hackxx-b5b0f for permissions ["cloudfunctions.functions.create","cloudfunctions.functions.delete","cloudfunctions.functions.get","cloudfunctions.functions.list","cloudfunctions.functions.update","cloudfunctions.operations.get","firebase.projects.get"]
+[debug] [2019-04-06T18:13:40.006Z] >>> HTTP REQUEST POST https://cloudresourcemanager.googleapis.com/v1/projects/hackxx-b5b0f:testIamPermissions  
+
+[debug] [2019-04-06T18:13:40.389Z] <<< HTTP RESPONSE 200
+[info] 
+[info] === Deploying to 'hackxx-b5b0f'...
+[info] 
+[info] i  deploying functions
+[info] Running command: npm --prefix "$RESOURCE_DIR" run lint
+[info] ✔  functions: Finished running predeploy script.
+[debug] [2019-04-06T18:13:45.234Z] > [functions] package.json contents: {
+  "name": "functions",
+  "description": "Cloud Functions for Firebase",
+  "scripts": {
+    "lint": "eslint .",
+    "serve": "firebase serve --only functions",
+    "shell": "firebase functions:shell",
+    "start": "npm run shell",
+    "deploy": "firebase deploy --only functions",
+    "logs": "firebase functions:log"
+  },
+  "dependencies": {
+    "actions-on-google": "^2.6.0",
+    "dialogflow-fulfillment": "^0.6.1",
+    "firebase-admin": "~7.0.0",
+    "firebase-functions": "^2.2.0"
+  },
+  "devDependencies": {
+    "eslint": "^5.12.0",
+    "eslint-plugin-promise": "^4.0.1"
+  },
+  "private": true
+}
+[info] i  functions: ensuring necessary APIs are enabled...
+[debug] [2019-04-06T18:13:45.238Z] >>> HTTP REQUEST GET https://servicemanagement.googleapis.com/v1/services/cloudfunctions.googleapis.com/projectSettings/hackxx-b5b0f?view=CONSUMER_VIEW  
+ 
+[debug] [2019-04-06T18:13:45.239Z] >>> HTTP REQUEST GET https://servicemanagement.googleapis.com/v1/services/runtimeconfig.googleapis.com/projectSettings/hackxx-b5b0f?view=CONSUMER_VIEW  
+ 
+[debug] [2019-04-06T18:13:46.220Z] <<< HTTP RESPONSE 200
+[debug] [2019-04-06T18:13:46.269Z] <<< HTTP RESPONSE 200
+[info] ✔  functions: all necessary APIs are enabled
+[debug] [2019-04-06T18:13:46.270Z] >>> HTTP REQUEST GET https://cloudresourcemanager.googleapis.com/v1/projects/hackxx-b5b0f  
+ 
+[debug] [2019-04-06T18:13:46.603Z] <<< HTTP RESPONSE 200
+[debug] [2019-04-06T18:13:46.604Z] >>> HTTP REQUEST GET https://mobilesdk-pa.googleapis.com/v1/projects/1031789119217:getServerAppConfig  
+ 
+[debug] [2019-04-06T18:13:46.801Z] <<< HTTP RESPONSE 200
+[info] i  functions: preparing ./ directory for uploading...
+[debug] [2019-04-06T18:13:46.805Z] >>> HTTP REQUEST GET https://runtimeconfig.googleapis.com/v1beta1/projects/hackxx-b5b0f/configs  
+ 
+[debug] [2019-04-06T18:13:47.034Z] <<< HTTP RESPONSE 200
+[info] i  functions: packaged ./ (42.25 KB) for uploading
+[debug] [2019-04-06T18:13:47.774Z] >>> HTTP REQUEST POST https://cloudfunctions.googleapis.com/v1/projects/hackxx-b5b0f/locations/us-central1/functions:generateUploadUrl  
+ 
+[debug] [2019-04-06T18:13:48.113Z] <<< HTTP RESPONSE 200
+[debug] [2019-04-06T18:13:48.114Z] >>> HTTP REQUEST PUT https://storage.googleapis.com/gcf-upload-us-central1-f570dd25-1b1a-4e66-bfac-1a2d8a14bd74/4fd7bc23-cd20-47d5-ad54-0188a376fd7c.zip?GoogleAccessId=service-1031789119217@gcf-admin-robot.iam.gserviceaccount.com&Expires=1554576228&Signature=ks6jEkTbWQoUqxU55vE%2BhE%2FVwO0sSi3iiHcrVhqg8BjqC%2FKEIHWeC6IHKRYZkq9lVuJWOdrg0yjxtN%2FYi4ui3l%2BYM%2B5YJAxnhGqsD%2FW1mTRA2JNFZK8wNbP3N%2FoED2xp9Kg7JKmbJGRuEr1Yfuy6PH9uOhyrHtklvHE3B%2F5z1wAU7A6trN54LVw%2F8pZcbkuZ0g6zaNTbAo%2B3SLta7Tz2WbdRO2DfpJSmSI3uyxEHpd2LwzwQ6DmsGj6QPk%2Fndzjj%2Bn2M3Je7RdtqM1eOvvMCY2%2BsIyokgeE0aHLjR7t5eOlDE8OPt4GFDNo9miTcJ1ErvSe05kZhPdPUnwoC0vtdOg%3D%3D  
+
+[debug] [2019-04-06T18:13:48.937Z] <<< HTTP RESPONSE 200
+[info] ✔  functions: ./ folder uploaded successfully
+[debug] [2019-04-06T18:13:48.939Z] >>> HTTP REQUEST GET https://cloudfunctions.googleapis.com/v1/projects/hackxx-b5b0f/locations/-/functions  
+ 
+[debug] [2019-04-06T18:13:49.534Z] <<< HTTP RESPONSE 200
+[info] i  functions: updating Node.js 6 function dialogflowFirebaseFulfillment(us-central1)...
+[debug] [2019-04-06T18:13:49.541Z] Trigger is:  {"httpsTrigger":{}}
+[debug] [2019-04-06T18:13:49.545Z] >>> HTTP REQUEST PATCH https://cloudfunctions.googleapis.com/v1/projects/hackxx-b5b0f/locations/us-central1/functions/dialogflowFirebaseFulfillment {"updateMask":"sourceUploadUrl,name,labels,httpsTrigger"} 
+
+[debug] [2019-04-06T18:13:50.321Z] <<< HTTP RESPONSE 200
+[debug] [2019-04-06T18:13:50.326Z] >>> HTTP REQUEST GET https://cloudfunctions.googleapis.com/v1/projects/hackxx-b5b0f/locations/-/functions  
+ 
+[debug] [2019-04-06T18:13:50.935Z] <<< HTTP RESPONSE 200
+[debug] [2019-04-06T18:13:50.937Z] >>> HTTP REQUEST GET https://cloudfunctions.googleapis.com/v1/operations/aGFja3h4LWI1YjBmL3VzLWNlbnRyYWwxL2RpYWxvZ2Zsb3dGaXJlYmFzZUZ1bGZpbGxtZW50L3A2YkM0b0xnX0ZB  
+ 
+[debug] [2019-04-06T18:13:51.447Z] <<< HTTP RESPONSE 200
+[debug] [2019-04-06T18:13:53.455Z] >>> HTTP REQUEST GET https://cloudfunctions.googleapis.com/v1/operations/aGFja3h4LWI1YjBmL3VzLWNlbnRyYWwxL2RpYWxvZ2Zsb3dGaXJlYmFzZUZ1bGZpbGxtZW50L3A2YkM0b0xnX0ZB  
+ 
+[debug] [2019-04-06T18:13:53.905Z] <<< HTTP RESPONSE 200
+[debug] [2019-04-06T18:13:55.907Z] >>> HTTP REQUEST GET https://cloudfunctions.googleapis.com/v1/operations/aGFja3h4LWI1YjBmL3VzLWNlbnRyYWwxL2RpYWxvZ2Zsb3dGaXJlYmFzZUZ1bGZpbGxtZW50L3A2YkM0b0xnX0ZB  
+ 
+[debug] [2019-04-06T18:13:56.307Z] <<< HTTP RESPONSE 200
+[debug] [2019-04-06T18:13:58.312Z] >>> HTTP REQUEST GET https://cloudfunctions.googleapis.com/v1/operations/aGFja3h4LWI1YjBmL3VzLWNlbnRyYWwxL2RpYWxvZ2Zsb3dGaXJlYmFzZUZ1bGZpbGxtZW50L3A2YkM0b0xnX0ZB  
+ 
+[debug] [2019-04-06T18:13:58.820Z] <<< HTTP RESPONSE 200
+[debug] [2019-04-06T18:14:00.826Z] >>> HTTP REQUEST GET https://cloudfunctions.googleapis.com/v1/operations/aGFja3h4LWI1YjBmL3VzLWNlbnRyYWwxL2RpYWxvZ2Zsb3dGaXJlYmFzZUZ1bGZpbGxtZW50L3A2YkM0b0xnX0ZB  
+ 
+[debug] [2019-04-06T18:14:01.277Z] <<< HTTP RESPONSE 200
+[debug] [2019-04-06T18:14:03.284Z] >>> HTTP REQUEST GET https://cloudfunctions.googleapis.com/v1/operations/aGFja3h4LWI1YjBmL3VzLWNlbnRyYWwxL2RpYWxvZ2Zsb3dGaXJlYmFzZUZ1bGZpbGxtZW50L3A2YkM0b0xnX0ZB  
+ 
+[debug] [2019-04-06T18:14:03.737Z] <<< HTTP RESPONSE 200
+[debug] [2019-04-06T18:14:05.742Z] >>> HTTP REQUEST GET https://cloudfunctions.googleapis.com/v1/operations/aGFja3h4LWI1YjBmL3VzLWNlbnRyYWwxL2RpYWxvZ2Zsb3dGaXJlYmFzZUZ1bGZpbGxtZW50L3A2YkM0b0xnX0ZB  
+ 
+[debug] [2019-04-06T18:14:06.193Z] <<< HTTP RESPONSE 200
+[debug] [2019-04-06T18:14:08.197Z] >>> HTTP REQUEST GET https://cloudfunctions.googleapis.com/v1/operations/aGFja3h4LWI1YjBmL3VzLWNlbnRyYWwxL2RpYWxvZ2Zsb3dGaXJlYmFzZUZ1bGZpbGxtZW50L3A2YkM0b0xnX0ZB  
+ 
+[debug] [2019-04-06T18:14:08.629Z] <<< HTTP RESPONSE 200
+[info] ✔  functions[dialogflowFirebaseFulfillment(us-central1)]: Successful update operation. 
+[info] 
+[info] ✔  Deploy complete!
+[info] 
+[info] Please note that it can take up to 30 seconds for your updated functions to propagate.
+[info] Project Console: https://console.firebase.google.com/project/hackxx-b5b0f/overview
+[debug] [2019-04-06T18:17:49.475Z] ----------------------------------------------------------------------
+[debug] [2019-04-06T18:17:49.484Z] Command:       /Users/saurabhkanhegaonkar/.nvm/versions/node/v10.15.3/bin/node /Users/saurabhkanhegaonkar/.nvm/versions/node/v10.15.3/bin/firebase deploy --only functions --debug
+[debug] [2019-04-06T18:17:49.485Z] CLI Version:   6.5.3
+[debug] [2019-04-06T18:17:49.485Z] Platform:      darwin
+[debug] [2019-04-06T18:17:49.486Z] Node Version:  v10.15.3
+[debug] [2019-04-06T18:17:49.490Z] Time:          Sat Apr 06 2019 11:17:49 GMT-0700 (Pacific Daylight Time)
+[debug] [2019-04-06T18:17:49.491Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2019-04-06T18:17:49.503Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2019-04-06T18:17:49.504Z] > authorizing via signed-in user
+[debug] [2019-04-06T18:17:49.504Z] [iam] checking project hackxx-b5b0f for permissions ["cloudfunctions.functions.create","cloudfunctions.functions.delete","cloudfunctions.functions.get","cloudfunctions.functions.list","cloudfunctions.functions.update","cloudfunctions.operations.get","firebase.projects.get"]
+[debug] [2019-04-06T18:17:49.506Z] >>> HTTP REQUEST POST https://cloudresourcemanager.googleapis.com/v1/projects/hackxx-b5b0f:testIamPermissions  
+
+[debug] [2019-04-06T18:17:49.892Z] <<< HTTP RESPONSE 200
+[info] 
+[info] === Deploying to 'hackxx-b5b0f'...
+[info] 
+[info] i  deploying functions
+[info] Running command: npm --prefix "$RESOURCE_DIR" run lint
+[info] ✔  functions: Finished running predeploy script.
+[debug] [2019-04-06T18:17:53.162Z] > [functions] package.json contents: {
+  "name": "functions",
+  "description": "Cloud Functions for Firebase",
+  "scripts": {
+    "lint": "eslint .",
+    "serve": "firebase serve --only functions",
+    "shell": "firebase functions:shell",
+    "start": "npm run shell",
+    "deploy": "firebase deploy --only functions",
+    "logs": "firebase functions:log"
+  },
+  "dependencies": {
+    "actions-on-google": "^2.6.0",
+    "dialogflow-fulfillment": "^0.6.1",
+    "firebase-admin": "~7.0.0",
+    "firebase-functions": "^2.2.0"
+  },
+  "devDependencies": {
+    "eslint": "^5.12.0",
+    "eslint-plugin-promise": "^4.0.1"
+  },
+  "private": true
+}
+[info] i  functions: ensuring necessary APIs are enabled...
+[debug] [2019-04-06T18:17:53.165Z] >>> HTTP REQUEST GET https://servicemanagement.googleapis.com/v1/services/cloudfunctions.googleapis.com/projectSettings/hackxx-b5b0f?view=CONSUMER_VIEW  
+ 
+[debug] [2019-04-06T18:17:53.166Z] >>> HTTP REQUEST GET https://servicemanagement.googleapis.com/v1/services/runtimeconfig.googleapis.com/projectSettings/hackxx-b5b0f?view=CONSUMER_VIEW  
+ 
+[debug] [2019-04-06T18:17:54.239Z] <<< HTTP RESPONSE 200
+[debug] [2019-04-06T18:17:54.267Z] <<< HTTP RESPONSE 200
+[info] ✔  functions: all necessary APIs are enabled
+[debug] [2019-04-06T18:17:54.268Z] >>> HTTP REQUEST GET https://cloudresourcemanager.googleapis.com/v1/projects/hackxx-b5b0f  
+ 
+[debug] [2019-04-06T18:17:54.673Z] <<< HTTP RESPONSE 200
+[debug] [2019-04-06T18:17:54.674Z] >>> HTTP REQUEST GET https://mobilesdk-pa.googleapis.com/v1/projects/1031789119217:getServerAppConfig  
+ 
+[debug] [2019-04-06T18:17:54.877Z] <<< HTTP RESPONSE 200
+[info] i  functions: preparing ./ directory for uploading...
+[debug] [2019-04-06T18:17:54.880Z] >>> HTTP REQUEST GET https://runtimeconfig.googleapis.com/v1beta1/projects/hackxx-b5b0f/configs  
+ 
+[debug] [2019-04-06T18:17:55.104Z] <<< HTTP RESPONSE 200
+[info] i  functions: packaged ./ (42.23 KB) for uploading
+[debug] [2019-04-06T18:17:55.791Z] >>> HTTP REQUEST POST https://cloudfunctions.googleapis.com/v1/projects/hackxx-b5b0f/locations/us-central1/functions:generateUploadUrl  
+ 
+[debug] [2019-04-06T18:17:56.353Z] <<< HTTP RESPONSE 200
+[debug] [2019-04-06T18:17:56.356Z] >>> HTTP REQUEST PUT https://storage.googleapis.com/gcf-upload-us-central1-f570dd25-1b1a-4e66-bfac-1a2d8a14bd74/f0cedf92-95da-4764-a159-d6610088fbe2.zip?GoogleAccessId=service-1031789119217@gcf-admin-robot.iam.gserviceaccount.com&Expires=1554576476&Signature=dR0GNxYS%2F0hJEc2fLEWZcsBZBL4j2jcPEbdWFiVxmZEeThP4ykEU8KWVGhiuTn%2BF51fekjXv9yqmEVe3JQmHa%2FAfzf3fsRYEf%2FOGMr4sapWsViosarSP1gocNGJrIuFatc%2FGHgBK%2FtitoeQ9GdClfcxi8vU76T0EgiwccXnoQLGRa2Jua1xrL2jkhjSFG30w%2BizybASMOTYns6cupmKrDIDXbWUm30xrf%2B9tq0G9ryKpo7KN8elHOGnxVZcplH8pRroLwUG2sqYk04IGfrmEWucsh%2FopodSiNnZPAjxD3vXEZ0ymOXcbDEf4EY6ZvkMAdp0O751OIochEAMtM85fSA%3D%3D  
+
+[debug] [2019-04-06T18:17:57.223Z] <<< HTTP RESPONSE 200
+[info] ✔  functions: ./ folder uploaded successfully
+[debug] [2019-04-06T18:17:57.226Z] >>> HTTP REQUEST GET https://cloudfunctions.googleapis.com/v1/projects/hackxx-b5b0f/locations/-/functions  
+ 
+[debug] [2019-04-06T18:17:57.617Z] <<< HTTP RESPONSE 200
+[info] i  functions: updating Node.js 6 function dialogflowFirebaseFulfillment(us-central1)...
+[debug] [2019-04-06T18:17:57.621Z] Trigger is:  {"httpsTrigger":{}}
+[debug] [2019-04-06T18:17:57.622Z] >>> HTTP REQUEST PATCH https://cloudfunctions.googleapis.com/v1/projects/hackxx-b5b0f/locations/us-central1/functions/dialogflowFirebaseFulfillment {"updateMask":"sourceUploadUrl,name,labels,httpsTrigger"} 
+
+[debug] [2019-04-06T18:17:58.333Z] <<< HTTP RESPONSE 200
+[debug] [2019-04-06T18:17:58.340Z] >>> HTTP REQUEST GET https://cloudfunctions.googleapis.com/v1/projects/hackxx-b5b0f/locations/-/functions  
+ 
+[debug] [2019-04-06T18:17:58.918Z] <<< HTTP RESPONSE 200
+[debug] [2019-04-06T18:17:58.919Z] >>> HTTP REQUEST GET https://cloudfunctions.googleapis.com/v1/operations/aGFja3h4LWI1YjBmL3VzLWNlbnRyYWwxL2RpYWxvZ2Zsb3dGaXJlYmFzZUZ1bGZpbGxtZW50LzI1c1E2VkxjTDNB  
+ 
+[debug] [2019-04-06T18:17:59.351Z] <<< HTTP RESPONSE 200
+[debug] [2019-04-06T18:18:01.357Z] >>> HTTP REQUEST GET https://cloudfunctions.googleapis.com/v1/operations/aGFja3h4LWI1YjBmL3VzLWNlbnRyYWwxL2RpYWxvZ2Zsb3dGaXJlYmFzZUZ1bGZpbGxtZW50LzI1c1E2VkxjTDNB  
+ 
+[debug] [2019-04-06T18:18:01.539Z] <<< HTTP RESPONSE 200
+[debug] [2019-04-06T18:18:03.542Z] >>> HTTP REQUEST GET https://cloudfunctions.googleapis.com/v1/operations/aGFja3h4LWI1YjBmL3VzLWNlbnRyYWwxL2RpYWxvZ2Zsb3dGaXJlYmFzZUZ1bGZpbGxtZW50LzI1c1E2VkxjTDNB  
+ 
+[debug] [2019-04-06T18:18:03.956Z] <<< HTTP RESPONSE 200
+[debug] [2019-04-06T18:18:05.962Z] >>> HTTP REQUEST GET https://cloudfunctions.googleapis.com/v1/operations/aGFja3h4LWI1YjBmL3VzLWNlbnRyYWwxL2RpYWxvZ2Zsb3dGaXJlYmFzZUZ1bGZpbGxtZW50LzI1c1E2VkxjTDNB  
+ 
+[debug] [2019-04-06T18:18:06.384Z] <<< HTTP RESPONSE 200
+[debug] [2019-04-06T18:18:08.389Z] >>> HTTP REQUEST GET https://cloudfunctions.googleapis.com/v1/operations/aGFja3h4LWI1YjBmL3VzLWNlbnRyYWwxL2RpYWxvZ2Zsb3dGaXJlYmFzZUZ1bGZpbGxtZW50LzI1c1E2VkxjTDNB  
+ 
+[debug] [2019-04-06T18:18:08.881Z] <<< HTTP RESPONSE 200
+[debug] [2019-04-06T18:18:10.888Z] >>> HTTP REQUEST GET https://cloudfunctions.googleapis.com/v1/operations/aGFja3h4LWI1YjBmL3VzLWNlbnRyYWwxL2RpYWxvZ2Zsb3dGaXJlYmFzZUZ1bGZpbGxtZW50LzI1c1E2VkxjTDNB  
+ 
+[debug] [2019-04-06T18:18:11.056Z] <<< HTTP RESPONSE 200
+[debug] [2019-04-06T18:18:13.058Z] >>> HTTP REQUEST GET https://cloudfunctions.googleapis.com/v1/operations/aGFja3h4LWI1YjBmL3VzLWNlbnRyYWwxL2RpYWxvZ2Zsb3dGaXJlYmFzZUZ1bGZpbGxtZW50LzI1c1E2VkxjTDNB  
+ 
+[debug] [2019-04-06T18:18:13.482Z] <<< HTTP RESPONSE 200
+[debug] [2019-04-06T18:18:15.488Z] >>> HTTP REQUEST GET https://cloudfunctions.googleapis.com/v1/operations/aGFja3h4LWI1YjBmL3VzLWNlbnRyYWwxL2RpYWxvZ2Zsb3dGaXJlYmFzZUZ1bGZpbGxtZW50LzI1c1E2VkxjTDNB  
+ 
+[debug] [2019-04-06T18:18:15.668Z] <<< HTTP RESPONSE 200
+[debug] [2019-04-06T18:18:17.674Z] >>> HTTP REQUEST GET https://cloudfunctions.googleapis.com/v1/operations/aGFja3h4LWI1YjBmL3VzLWNlbnRyYWwxL2RpYWxvZ2Zsb3dGaXJlYmFzZUZ1bGZpbGxtZW50LzI1c1E2VkxjTDNB  
+ 
+[debug] [2019-04-06T18:18:18.096Z] <<< HTTP RESPONSE 200
+[debug] [2019-04-06T18:18:20.102Z] >>> HTTP REQUEST GET https://cloudfunctions.googleapis.com/v1/operations/aGFja3h4LWI1YjBmL3VzLWNlbnRyYWwxL2RpYWxvZ2Zsb3dGaXJlYmFzZUZ1bGZpbGxtZW50LzI1c1E2VkxjTDNB  
+ 
+[debug] [2019-04-06T18:18:20.554Z] <<< HTTP RESPONSE 200
+[debug] [2019-04-06T18:18:22.560Z] >>> HTTP REQUEST GET https://cloudfunctions.googleapis.com/v1/operations/aGFja3h4LWI1YjBmL3VzLWNlbnRyYWwxL2RpYWxvZ2Zsb3dGaXJlYmFzZUZ1bGZpbGxtZW50LzI1c1E2VkxjTDNB  
+ 
+[debug] [2019-04-06T18:18:23.113Z] <<< HTTP RESPONSE 200
+[info] ✔  functions[dialogflowFirebaseFulfillment(us-central1)]: Successful update operation. 
+[info] 
+[info] ✔  Deploy complete!
+[info] 
+[info] Please note that it can take up to 30 seconds for your updated functions to propagate.
+[info] Project Console: https://console.firebase.google.com/project/hackxx-b5b0f/overview
+[debug] [2019-04-06T18:19:19.618Z] ----------------------------------------------------------------------
+[debug] [2019-04-06T18:19:19.624Z] Command:       /Users/saurabhkanhegaonkar/.nvm/versions/node/v10.15.3/bin/node /Users/saurabhkanhegaonkar/.nvm/versions/node/v10.15.3/bin/firebase deploy --only functions --debug
+[debug] [2019-04-06T18:19:19.626Z] CLI Version:   6.5.3
+[debug] [2019-04-06T18:19:19.626Z] Platform:      darwin
+[debug] [2019-04-06T18:19:19.626Z] Node Version:  v10.15.3
+[debug] [2019-04-06T18:19:19.628Z] Time:          Sat Apr 06 2019 11:19:19 GMT-0700 (Pacific Daylight Time)
+[debug] [2019-04-06T18:19:19.629Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2019-04-06T18:19:19.643Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2019-04-06T18:19:19.643Z] > authorizing via signed-in user
+[debug] [2019-04-06T18:19:19.644Z] [iam] checking project hackxx-b5b0f for permissions ["cloudfunctions.functions.create","cloudfunctions.functions.delete","cloudfunctions.functions.get","cloudfunctions.functions.list","cloudfunctions.functions.update","cloudfunctions.operations.get","firebase.projects.get"]
+[debug] [2019-04-06T18:19:19.648Z] >>> HTTP REQUEST POST https://cloudresourcemanager.googleapis.com/v1/projects/hackxx-b5b0f:testIamPermissions  
+
+[debug] [2019-04-06T18:19:20.020Z] <<< HTTP RESPONSE 200
+[info] 
+[info] === Deploying to 'hackxx-b5b0f'...
+[info] 
+[info] i  deploying functions
+[info] Running command: npm --prefix "$RESOURCE_DIR" run lint
+[info] ✔  functions: Finished running predeploy script.
+[debug] [2019-04-06T18:19:23.942Z] > [functions] package.json contents: {
+  "name": "functions",
+  "description": "Cloud Functions for Firebase",
+  "scripts": {
+    "lint": "eslint .",
+    "serve": "firebase serve --only functions",
+    "shell": "firebase functions:shell",
+    "start": "npm run shell",
+    "deploy": "firebase deploy --only functions",
+    "logs": "firebase functions:log"
+  },
+  "dependencies": {
+    "actions-on-google": "^2.6.0",
+    "dialogflow-fulfillment": "^0.6.1",
+    "firebase-admin": "~7.0.0",
+    "firebase-functions": "^2.2.0"
+  },
+  "devDependencies": {
+    "eslint": "^5.12.0",
+    "eslint-plugin-promise": "^4.0.1"
+  },
+  "private": true
+}
+[info] i  functions: ensuring necessary APIs are enabled...
+[debug] [2019-04-06T18:19:23.945Z] >>> HTTP REQUEST GET https://servicemanagement.googleapis.com/v1/services/cloudfunctions.googleapis.com/projectSettings/hackxx-b5b0f?view=CONSUMER_VIEW  
+ 
+[debug] [2019-04-06T18:19:23.946Z] >>> HTTP REQUEST GET https://servicemanagement.googleapis.com/v1/services/runtimeconfig.googleapis.com/projectSettings/hackxx-b5b0f?view=CONSUMER_VIEW  
+ 
+[debug] [2019-04-06T18:19:24.872Z] <<< HTTP RESPONSE 200
+[debug] [2019-04-06T18:19:24.939Z] <<< HTTP RESPONSE 200
+[info] ✔  functions: all necessary APIs are enabled
+[debug] [2019-04-06T18:19:24.943Z] >>> HTTP REQUEST GET https://cloudresourcemanager.googleapis.com/v1/projects/hackxx-b5b0f  
+ 
+[debug] [2019-04-06T18:19:25.372Z] <<< HTTP RESPONSE 200
+[debug] [2019-04-06T18:19:25.373Z] >>> HTTP REQUEST GET https://mobilesdk-pa.googleapis.com/v1/projects/1031789119217:getServerAppConfig  
+ 
+[debug] [2019-04-06T18:19:25.571Z] <<< HTTP RESPONSE 200
+[info] i  functions: preparing ./ directory for uploading...
+[debug] [2019-04-06T18:19:25.577Z] >>> HTTP REQUEST GET https://runtimeconfig.googleapis.com/v1beta1/projects/hackxx-b5b0f/configs  
+ 
+[debug] [2019-04-06T18:19:25.813Z] <<< HTTP RESPONSE 200
+[info] i  functions: packaged ./ (42.81 KB) for uploading
+[debug] [2019-04-06T18:19:26.642Z] >>> HTTP REQUEST POST https://cloudfunctions.googleapis.com/v1/projects/hackxx-b5b0f/locations/us-central1/functions:generateUploadUrl  
+ 
+[debug] [2019-04-06T18:19:27.319Z] <<< HTTP RESPONSE 200
+[debug] [2019-04-06T18:19:27.320Z] >>> HTTP REQUEST PUT https://storage.googleapis.com/gcf-upload-us-central1-f570dd25-1b1a-4e66-bfac-1a2d8a14bd74/baa7072d-4f72-47c0-b918-b05a550bbd77.zip?GoogleAccessId=service-1031789119217@gcf-admin-robot.iam.gserviceaccount.com&Expires=1554576567&Signature=CQAHHHlbFxcSRnHHsx%2BRBjicquI3S3EALMvFPlVMWU4TGs7%2FbVwV6teyLpmj188mtMXniKfP5iQqj%2F1iZ8Oi4WdXhqeium6W3pSKl35yt8L%2Fd7bsIbJc%2BYgo0ZTAAPdanYrzV84%2BCGZHwYVmw7mEjWK7FBChNOApy47iZnGPIAvj5qck4fbLCvc0bpQeVHPzavbJybTTFLrEypGUz2JW%2F8DQ2TTrZZnyYBx65qp2LcIv7N641WiD6DiKPZ7pL8d%2BxmCn%2BdFzBleeFNKa8173FZ6%2FW3TWeapy0Q7TWHoBL1T6Pj%2FrWLr11pn0aGwsUGX16PHtPHfpJwHmWuTlxFmxeA%3D%3D  
+
+[debug] [2019-04-06T18:19:28.410Z] <<< HTTP RESPONSE 200
+[info] ✔  functions: ./ folder uploaded successfully
+[debug] [2019-04-06T18:19:28.416Z] >>> HTTP REQUEST GET https://cloudfunctions.googleapis.com/v1/projects/hackxx-b5b0f/locations/-/functions  
+ 
+[debug] [2019-04-06T18:19:29.059Z] <<< HTTP RESPONSE 200
+[info] i  functions: updating Node.js 6 function dialogflowFirebaseFulfillment(us-central1)...
+[debug] [2019-04-06T18:19:29.065Z] Trigger is:  {"httpsTrigger":{}}
+[debug] [2019-04-06T18:19:29.067Z] >>> HTTP REQUEST PATCH https://cloudfunctions.googleapis.com/v1/projects/hackxx-b5b0f/locations/us-central1/functions/dialogflowFirebaseFulfillment {"updateMask":"sourceUploadUrl,name,labels,httpsTrigger"} 
+
+[debug] [2019-04-06T18:19:29.850Z] <<< HTTP RESPONSE 200
+[debug] [2019-04-06T18:19:29.855Z] >>> HTTP REQUEST GET https://cloudfunctions.googleapis.com/v1/projects/hackxx-b5b0f/locations/-/functions  
+ 
+[debug] [2019-04-06T18:19:30.488Z] <<< HTTP RESPONSE 200
+[debug] [2019-04-06T18:19:30.491Z] >>> HTTP REQUEST GET https://cloudfunctions.googleapis.com/v1/operations/aGFja3h4LWI1YjBmL3VzLWNlbnRyYWwxL2RpYWxvZ2Zsb3dGaXJlYmFzZUZ1bGZpbGxtZW50LzZaV2hqLW9lbmF3  
+ 
+[debug] [2019-04-06T18:19:30.916Z] <<< HTTP RESPONSE 200
+[debug] [2019-04-06T18:19:32.923Z] >>> HTTP REQUEST GET https://cloudfunctions.googleapis.com/v1/operations/aGFja3h4LWI1YjBmL3VzLWNlbnRyYWwxL2RpYWxvZ2Zsb3dGaXJlYmFzZUZ1bGZpbGxtZW50LzZaV2hqLW9lbmF3  
+ 
+[debug] [2019-04-06T18:19:33.354Z] <<< HTTP RESPONSE 200
+[debug] [2019-04-06T18:19:35.357Z] >>> HTTP REQUEST GET https://cloudfunctions.googleapis.com/v1/operations/aGFja3h4LWI1YjBmL3VzLWNlbnRyYWwxL2RpYWxvZ2Zsb3dGaXJlYmFzZUZ1bGZpbGxtZW50LzZaV2hqLW9lbmF3  
+ 
+[debug] [2019-04-06T18:19:35.550Z] <<< HTTP RESPONSE 200
+[debug] [2019-04-06T18:19:37.556Z] >>> HTTP REQUEST GET https://cloudfunctions.googleapis.com/v1/operations/aGFja3h4LWI1YjBmL3VzLWNlbnRyYWwxL2RpYWxvZ2Zsb3dGaXJlYmFzZUZ1bGZpbGxtZW50LzZaV2hqLW9lbmF3  
+ 
+[debug] [2019-04-06T18:19:37.969Z] <<< HTTP RESPONSE 200
+[debug] [2019-04-06T18:19:39.974Z] >>> HTTP REQUEST GET https://cloudfunctions.googleapis.com/v1/operations/aGFja3h4LWI1YjBmL3VzLWNlbnRyYWwxL2RpYWxvZ2Zsb3dGaXJlYmFzZUZ1bGZpbGxtZW50LzZaV2hqLW9lbmF3  
+ 
+[debug] [2019-04-06T18:19:40.163Z] <<< HTTP RESPONSE 200
+[debug] [2019-04-06T18:19:42.167Z] >>> HTTP REQUEST GET https://cloudfunctions.googleapis.com/v1/operations/aGFja3h4LWI1YjBmL3VzLWNlbnRyYWwxL2RpYWxvZ2Zsb3dGaXJlYmFzZUZ1bGZpbGxtZW50LzZaV2hqLW9lbmF3  
+ 
+[debug] [2019-04-06T18:19:42.334Z] <<< HTTP RESPONSE 200
+[debug] [2019-04-06T18:19:44.338Z] >>> HTTP REQUEST GET https://cloudfunctions.googleapis.com/v1/operations/aGFja3h4LWI1YjBmL3VzLWNlbnRyYWwxL2RpYWxvZ2Zsb3dGaXJlYmFzZUZ1bGZpbGxtZW50LzZaV2hqLW9lbmF3  
+ 
+[debug] [2019-04-06T18:19:44.751Z] <<< HTTP RESPONSE 200
+[debug] [2019-04-06T18:19:46.754Z] >>> HTTP REQUEST GET https://cloudfunctions.googleapis.com/v1/operations/aGFja3h4LWI1YjBmL3VzLWNlbnRyYWwxL2RpYWxvZ2Zsb3dGaXJlYmFzZUZ1bGZpbGxtZW50LzZaV2hqLW9lbmF3  
+ 
+[debug] [2019-04-06T18:19:47.186Z] <<< HTTP RESPONSE 200
+[debug] [2019-04-06T18:19:49.192Z] >>> HTTP REQUEST GET https://cloudfunctions.googleapis.com/v1/operations/aGFja3h4LWI1YjBmL3VzLWNlbnRyYWwxL2RpYWxvZ2Zsb3dGaXJlYmFzZUZ1bGZpbGxtZW50LzZaV2hqLW9lbmF3  
+ 
+[debug] [2019-04-06T18:19:49.641Z] <<< HTTP RESPONSE 200
+[debug] [2019-04-06T18:19:51.645Z] >>> HTTP REQUEST GET https://cloudfunctions.googleapis.com/v1/operations/aGFja3h4LWI1YjBmL3VzLWNlbnRyYWwxL2RpYWxvZ2Zsb3dGaXJlYmFzZUZ1bGZpbGxtZW50LzZaV2hqLW9lbmF3  
+ 
+[debug] [2019-04-06T18:19:52.098Z] <<< HTTP RESPONSE 200
+[debug] [2019-04-06T18:19:54.104Z] >>> HTTP REQUEST GET https://cloudfunctions.googleapis.com/v1/operations/aGFja3h4LWI1YjBmL3VzLWNlbnRyYWwxL2RpYWxvZ2Zsb3dGaXJlYmFzZUZ1bGZpbGxtZW50LzZaV2hqLW9lbmF3  
+ 
+[debug] [2019-04-06T18:19:54.555Z] <<< HTTP RESPONSE 200
+[debug] [2019-04-06T18:19:56.560Z] >>> HTTP REQUEST GET https://cloudfunctions.googleapis.com/v1/operations/aGFja3h4LWI1YjBmL3VzLWNlbnRyYWwxL2RpYWxvZ2Zsb3dGaXJlYmFzZUZ1bGZpbGxtZW50LzZaV2hqLW9lbmF3  
+ 
+[debug] [2019-04-06T18:19:57.015Z] <<< HTTP RESPONSE 200
+[debug] [2019-04-06T18:19:59.020Z] >>> HTTP REQUEST GET https://cloudfunctions.googleapis.com/v1/operations/aGFja3h4LWI1YjBmL3VzLWNlbnRyYWwxL2RpYWxvZ2Zsb3dGaXJlYmFzZUZ1bGZpbGxtZW50LzZaV2hqLW9lbmF3  
+ 
+[debug] [2019-04-06T18:19:59.472Z] <<< HTTP RESPONSE 200
+[debug] [2019-04-06T18:20:01.477Z] >>> HTTP REQUEST GET https://cloudfunctions.googleapis.com/v1/operations/aGFja3h4LWI1YjBmL3VzLWNlbnRyYWwxL2RpYWxvZ2Zsb3dGaXJlYmFzZUZ1bGZpbGxtZW50LzZaV2hqLW9lbmF3  
+ 
+[debug] [2019-04-06T18:20:01.896Z] <<< HTTP RESPONSE 200
+[debug] [2019-04-06T18:20:03.902Z] >>> HTTP REQUEST GET https://cloudfunctions.googleapis.com/v1/operations/aGFja3h4LWI1YjBmL3VzLWNlbnRyYWwxL2RpYWxvZ2Zsb3dGaXJlYmFzZUZ1bGZpbGxtZW50LzZaV2hqLW9lbmF3  
+ 
+[debug] [2019-04-06T18:20:04.068Z] <<< HTTP RESPONSE 200
+[debug] [2019-04-06T18:20:06.073Z] >>> HTTP REQUEST GET https://cloudfunctions.googleapis.com/v1/operations/aGFja3h4LWI1YjBmL3VzLWNlbnRyYWwxL2RpYWxvZ2Zsb3dGaXJlYmFzZUZ1bGZpbGxtZW50LzZaV2hqLW9lbmF3  
+ 
+[debug] [2019-04-06T18:20:06.272Z] <<< HTTP RESPONSE 200
+[info] ✔  functions[dialogflowFirebaseFulfillment(us-central1)]: Successful update operation. 
+[info] 
+[info] ✔  Deploy complete!
+[info] 
+[info] Please note that it can take up to 30 seconds for your updated functions to propagate.
+[info] Project Console: https://console.firebase.google.com/project/hackxx-b5b0f/overview

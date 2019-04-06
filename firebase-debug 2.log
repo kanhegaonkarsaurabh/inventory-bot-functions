@@ -1,0 +1,13 @@
+[debug] [2019-04-06T17:32:51.198Z] ----------------------------------------------------------------------
+[debug] [2019-04-06T17:32:51.200Z] Command:       /Users/saurabhkanhegaonkar/.nvm/versions/node/v10.15.3/bin/node /Users/saurabhkanhegaonkar/.nvm/versions/node/v10.15.3/bin/firebase use --add
+[debug] [2019-04-06T17:32:51.201Z] CLI Version:   6.5.3
+[debug] [2019-04-06T17:32:51.201Z] Platform:      darwin
+[debug] [2019-04-06T17:32:51.201Z] Node Version:  v10.15.3
+[debug] [2019-04-06T17:32:51.201Z] Time:          Sat Apr 06 2019 10:32:51 GMT-0700 (Pacific Daylight Time)
+[debug] [2019-04-06T17:32:51.201Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2019-04-06T17:32:51.210Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2019-04-06T17:32:51.210Z] > authorizing via signed-in user
+[debug] [2019-04-06T17:32:51.213Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/projects  
+ 
+[debug] [2019-04-06T17:32:52.105Z] <<< HTTP RESPONSE 200
